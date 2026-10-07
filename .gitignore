@@ -1,0 +1,3 @@
+# Session handoffs/notes are local working state
+.agents/sessions/*
+!.agents/sessions/.gitkeep
