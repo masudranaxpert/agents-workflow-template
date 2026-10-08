@@ -35,7 +35,7 @@ Start by reading `.agents/INDEX.md`. Read other files only when relevant.
 3. Get user approval (skip if scope and approach are already approved).
 4. Implement, run checks, tick the checklist and record passed/failed/not-run.
 5. Update `architecture.md` / `design.md` if their decisions changed.
-6. If work is unfinished, write `HANDOFF.md` and link it from `INDEX.md`.
+6. Create/update session handoff in `.agents/sessions/<date-topic>/HANDOFF.md` and link from `INDEX.md`.
 
 ## Rules
 - Code and Git state beat docs. If they disagree, trust the code and fix or flag the doc.
