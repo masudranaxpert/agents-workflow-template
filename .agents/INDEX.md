@@ -1,6 +1,7 @@
 # Index
 
 ## Docs
+- [Skills Handbook](../skills-handbook/README.md)
 - [Architecture](architecture.md)
 - [Design](design.md)
 - [Overall plan](plans/plan.md)
