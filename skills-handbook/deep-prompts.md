@@ -65,9 +65,9 @@ A complete guide to eliminating AI sycophancy, triggering exhaustive deep thinki
 
 ---
 
-## 4. Ready-to-Use Master Prompts (কপি-পেস্ট করার জন্য)
+## 4. Ready-to-Use Master Prompts
 
-### Prompt 1: Adversarial UI & Layout Deep Scan (UI ও লেআউট নিখুঁত করার প্রম্পট)
+### Prompt 1: Adversarial UI & Layout Deep Scan
 
 ```text
 /boost
@@ -92,7 +92,7 @@ If an area has no issues, explicitly write "No concerns found" instead of generi
 
 ---
 
-### Prompt 2: Backend Architecture & Security Deep Scan (ব্যাকএন্ড ও এপিআই অডিট)
+### Prompt 2: Backend Architecture & Security Deep Scan
 
 ```text
 /boost
@@ -114,7 +114,7 @@ Instructions:
 
 ---
 
-### Prompt 3: Anti-AI-Slop Color Palette Generator (কালার সিলেকশন প্রম্পট)
+### Prompt 3: Anti-AI-Slop Color Palette Generator
 
 ```text
 Act as an Elite Design Systems Architect. I need a cohesive, production-grade color system for my application.
@@ -139,7 +139,7 @@ Include Tailwind CSS v4 @theme CSS variable definitions for each option so I can
 
 ---
 
-### Prompt 4: Pre-Merge Regression Gate (কোড মার্জ করার আগের ফাইনাল চেক)
+### Prompt 4: Pre-Merge Regression Gate
 
 ```text
 Act as a skeptical Release Engineer reviewing this proposed pull request/diff.
