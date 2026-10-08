@@ -114,27 +114,29 @@ Instructions:
 
 ---
 
-### Prompt 3: Anti-AI-Slop Color Palette Generator
+### Prompt 3: Interactive Visual Color Studio Generator
 
 ```text
-Act as an Elite Design Systems Architect. I need a cohesive, production-grade color system for my application.
+Act as a Principal Design Systems Architect.
+I am building: "[INSERT_PROJECT_NAME_OR_DESCRIPTION, e.g., A minimalist specialty coffee e-commerce / A high-density DevOps monitoring dashboard]".
 
-Do NOT give me generic AI-slop colors (no purple/blue gradients on plain white backgrounds, no muddy grays).
+I cannot judge colors from raw hex codes or text descriptions alone. Do NOT just output markdown text with color tables.
 
-Generate 3 completely distinct curated color worlds. For each world, provide exact OKLCH & Hex values for:
-1. Base Background (60%)
-2. Card / Surface Background (30%)
-3. Border & Subtle Separators
-4. Primary Text & Muted Text
-5. Single High-Impact Accent Color (10%)
-6. Danger & Success Tokens
+Instead, construct a single self-contained interactive HTML preview file named "palette-studio.html".
 
-The 3 Worlds:
-- World A: Minimalist Deep Dark (Linear / Raycast vibe)
-- World B: Modern High-Density Slate (Supabase / GitHub vibe)
-- World C: Warm Editorial Craft (Stripe / Monocle vibe)
-
-Include Tailwind CSS v4 @theme CSS variable definitions for each option so I can easily preview them.
+Requirements for the interactive HTML file:
+1. Provide 3 completely distinct curated theme options:
+   - Option 1: Linear-style (Minimalist Deep Dark / High-tech)
+   - Option 2: Modern Platform style (Slate base with Emerald or Cyan accent)
+   - Option 3: Warm Craft style (Alabaster / Warm Charcoal with Terracotta or Amber accent)
+2. Include live interactive Dark and Light mode toggles for all 3 themes.
+3. Render real UI components that respond live to the active theme:
+   - Hero banner with Headline and Solid Accent CTA button
+   - 3 Metric / Dashboard cards showing surface elevation and 1px borders
+   - Interactive Form group with input focus states in the accent color and a toggle switch
+   - Compact Data table with status tags
+4. Display active hex codes, WCAG AAA contrast ratio scores, and a 1-click "Copy CSS Variables" button.
+5. Zero dependencies: pure semantic HTML, vanilla CSS variables, and lightweight JS.
 ```
 
 ---
