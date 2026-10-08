@@ -151,3 +151,25 @@ Verification steps:
 
 Give me a simple PASS or FAIL recommendation with bulleted evidence.
 ```
+
+---
+
+### Prompt 5: Elite UI Meta-Prompt Generator
+
+```text
+Act as a Principal Design Architect & Prompt Engineer. 
+I want to build: "[INSERT_RAW_IDEA_HERE, e.g., A minimalist specialty coffee beans e-commerce / A high-density CRM for freelance engineers / A podcast discovery web app]".
+
+Do not write the code yet. Instead, generate a comprehensive, bulletproof, anti-AI-slop design specification prompt that I can feed into an AI coding agent to get a world-class UI.
+
+The generated prompt MUST structure the requirements across:
+1. Exact Persona & Target Audience (preventing generic corporate templates)
+2. Aesthetic Anchor & Vibe (choosing from Linear Dark, Vercel Clean, Teenage Engineering Industrial, Stripe Dense, or Warm Editorial Craft)
+3. 60-30-10 Color System (exact Hex tokens for Base, Surface, Text, and ONE High-Impact Accent)
+4. Typographic Hierarchy (exact Google font pairing with weights)
+5. Layout Anatomy & Sections (concrete, interactive components with real purpose)
+6. Banned Anti-Slop Constraints (explicitly prohibiting generic purple gradients, fake cards, floaty glassmorphism, or placeholder lorem ipsum)
+
+Output ONLY the ready-to-copy execution prompt inside a clean markdown codeblock.
+```
+
