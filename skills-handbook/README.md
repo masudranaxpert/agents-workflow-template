@@ -1,8 +1,9 @@
 # Master Skills Handbook
 
-A structured directory and decision matrix for all 74 AI coding agent skills installed in the environment.
+A structured directory and decision matrix for all 75 AI coding agent skills installed in the environment.
 
-For a dedicated deep dive into UI, design systems, and motion, see **[UI Skills Handbook](ui.md)**.
+- For a dedicated deep dive into UI, design systems, and motion: **[UI Skills Handbook](ui.md)**
+- For upstream GitHub repos, skills.sh links, and one-line install commands: **[Skills Directory & Install Sources](sources.md)**
 
 ---
 
@@ -11,6 +12,7 @@ For a dedicated deep dive into UI, design systems, and motion, see **[UI Skills 
 | Task / Domain | Primary Skill | Supporting / Specialized Skill |
 | :--- | :--- | :--- |
 | **System Architecture & Module Boundaries** | `codebase-design` | `api-and-interface-design` |
+| **OpenAPI 3.1 & Swagger Documentation** | `api-designer` | `api-and-interface-design`, `fastapi` |
 | **UI Design without AI Slop** | `frontend-design-complete` | `better-colors`, `better-typography` |
 | **Production React & Tailwind Components** | `frontend-ui-engineering` | `tailwind-4-docs`, `pick-ui-library` |
 | **Web Animations from Scratch** | `animate` | `apple-design`, `emil-design-eng` |
@@ -36,6 +38,7 @@ For a dedicated deep dive into UI, design systems, and motion, see **[UI Skills 
 ## 1. Architecture, Interfaces & Security
 
 - **`codebase-design`**: বড় ফিচার শুরুর আগে Deep Module আর্কিটেকচার তৈরি করতে (জটিল বিজনেস লজিক ছোট ও স্পষ্ট Interface-এর পেছনে রাখা)।
+- **`api-designer`**: OpenAPI 3.1 স্পেক তৈরি, Swagger রিকোয়েস্ট/রেসপন্স মডেল, RFC 7807 এরর হ্যান্ডলিং ও পেজিনেশন স্ট্যান্ডার্ড ডিজাইন করতে।
 - **`api-and-interface-design`**: Frontend ও Backend-এর মধ্যে অপরিবর্তনশীল ও পরিষ্কার REST / GraphQL Type Contract তৈরি করতে।
 - **`code-review-and-quality`**: যেকোনো কোড মার্জ করার আগে Regression ও Mutation Testing দিয়ে কোয়ালিটি ভেরিফাই করতে।
 - **`security-audit`**: Authentication, RBAC Permissions, SQL Injection, XSS এবং Secret Leak স্ক্যান করতে।
