@@ -3,6 +3,7 @@
 A structured directory and decision matrix for all 75 AI coding agent skills installed in the environment.
 
 - For a dedicated deep dive into UI, design systems, and motion: **[UI Skills Handbook](ui.md)**
+- For battle-tested deep-audit prompts and Antigravity slash commands: **[Deep Prompting & Audit Guide](deep-prompts.md)**
 - For upstream GitHub repos, skills.sh links, and one-line install commands: **[Skills Directory & Install Sources](sources.md)**
 
 ---
