@@ -125,17 +125,14 @@ I cannot judge colors from raw hex codes or text descriptions alone. Do NOT just
 Instead, construct a single self-contained interactive HTML preview file named "palette-studio.html".
 
 Requirements for the interactive HTML file:
-1. Provide 3 completely distinct curated theme options:
-   - Option 1: Linear-style (Minimalist Deep Dark / High-tech)
-   - Option 2: Modern Platform style (Slate base with Emerald or Cyan accent)
-   - Option 3: Warm Craft style (Alabaster / Warm Charcoal with Terracotta or Amber accent)
-2. Include live interactive Dark and Light mode toggles for all 3 themes.
-3. Render real UI components that respond live to the active theme:
-   - Hero banner with Headline and Solid Accent CTA button
-   - 3 Metric / Dashboard cards showing surface elevation and 1px borders
-   - Interactive Form group with input focus states in the accent color and a toggle switch
-   - Compact Data table with status tags
-4. Display active hex codes, WCAG AAA contrast ratio scores, and a 1-click "Copy CSS Variables" button.
+1. Curated Theme Baseline: Provide multiple distinct curated theme presets (e.g. Linear High-Tech, Modern Platform, Hyperion Mint, Warm Craft, Nordic Forest) with live Dark and Light mode toggles.
+2. Custom Color Fine-Tuning (Mandatory):
+   - Every color token card (--color-bg, --color-surface, --color-text, --color-muted, --color-accent) MUST have an interactive native color picker (<input type="color">) and an editable hex text input.
+   - The user must be able to click any swatch or type any custom hex to customize accents, backgrounds, or surfaces on the fly.
+3. Realtime Component & Math Recalculation:
+   - When any color is picked or modified, immediately update the live component preview (Hero banner, CTA buttons, metrics cards, status pills).
+   - Recalculate WCAG contrast ratios in real time using relative luminance math and update the AAA/AA contrast badges dynamically.
+4. Export: Provide a 1-click "Copy CSS Variables" button that copies the currently active (or customized) tokens formatted for :root and dark mode.
 5. Zero dependencies: pure semantic HTML, vanilla CSS variables, and lightweight JS.
 ```
 
