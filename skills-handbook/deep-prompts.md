@@ -125,15 +125,22 @@ I cannot judge colors from raw hex codes or text descriptions alone. Do NOT just
 Instead, construct a single self-contained interactive HTML preview file named "palette-studio.html".
 
 Requirements for the interactive HTML file:
-1. Curated Theme Baseline: Provide multiple distinct curated theme presets (e.g. Linear High-Tech, Modern Platform, Hyperion Mint, Warm Craft, Nordic Forest) with live Dark and Light mode toggles.
-2. Custom Color Fine-Tuning (Mandatory):
+1. Curated Theme Baseline & Reset:
+   - Provide multiple distinct curated theme presets (e.g. Linear High-Tech, Modern Platform, Hyperion Mint, Warm Craft, Nordic Forest) with live Dark and Light mode toggles.
+   - Include a "Reset to Baseline" button to instantly revert any custom color tweaks back to the active preset baseline.
+2. Custom Color Fine-Tuning:
    - Every color token card (--color-bg, --color-surface, --color-text, --color-muted, --color-accent) MUST have an interactive native color picker (<input type="color">) and an editable hex text input.
    - The user must be able to click any swatch or type any custom hex to customize accents, backgrounds, or surfaces on the fly.
-3. Realtime Component & Math Recalculation:
-   - When any color is picked or modified, immediately update the live component preview (Hero banner, CTA buttons, metrics cards, status pills).
-   - Recalculate WCAG contrast ratios in real time using relative luminance math and update the AAA/AA contrast badges dynamically.
-4. Export: Provide a 1-click "Copy CSS Variables" button that copies the currently active (or customized) tokens formatted for :root and dark mode.
-5. Zero dependencies: pure semantic HTML, vanilla CSS variables, and lightweight JS.
+3. Complete Production Component Laboratory:
+   - Interactive Modal Dialog: An openable modal dialog with title, description, select/input field, and Accent Confirm & Cancel action buttons with backdrop blur.
+   - Data Table with Action Icons: Table rows featuring status badges, latency metrics, and inline Action Icons (Edit and Delete icons with subtle hover states).
+   - Form Field Laboratory: Search box with magnifying glass icon, small vs standard inputs, multi-line textarea, select dropdown, and toggle switch.
+   - Enhanced Stats Cards: Metric cards displaying numbers, icons, trend indicators (+14.2% / -3.1%), and status pills.
+4. Realtime Mathematical Recalculation:
+   - When any color is picked or modified, immediately update all laboratory components in real time.
+   - Recalculate WCAG contrast ratios dynamically using relative luminance math and update the AAA/AA contrast badges.
+5. Export: Provide a 1-click "Copy CSS Variables" button that copies the currently active (or customized) tokens formatted for :root and dark mode.
+6. Zero dependencies: pure semantic HTML, vanilla CSS variables, and lightweight JS.
 ```
 
 ---
