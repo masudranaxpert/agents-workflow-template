@@ -1,284 +1,151 @@
-# মাস্টার এজেন্ট স্কিল হ্যান্ডবুক ও ডিসিশন গাইড (Master Skills Handbook)
+# Master Skills Handbook
 
-> আপনার সিস্টেমে ইনস্টল থাকা সর্বমোট **৭৪টি এআই কোডিং স্কিলের** সম্পূর্ণ গাইডলাইন। কোনো কাজের জন্য কোন স্কিলটি সবচেয়ে সেরা এবং কখন কোনটি ব্যবহার করবেন—তা সহজ বাংলায় বিস্তারিত তুলে ধরা হলো।
+A structured directory and decision matrix for all 74 AI coding agent skills installed in the environment.
+
+For a dedicated deep dive into UI, design systems, and motion, see **[UI Skills Handbook](ui.md)**.
 
 ---
 
-## ⚡ দ্রুত সিদ্ধান্ত নেয়ার গাইড (Quick Decision Cheat Sheet)
+## Quick Decision Matrix
 
-| কাজের ধরন | প্রধান স্কিল (Primary) | সহায়ক স্কিল (Supporting) |
+| Task / Domain | Primary Skill | Supporting / Specialized Skill |
 | :--- | :--- | :--- |
-| **নতুন প্রজেক্ট বা ফিচারের মডিউল আর্কিটেকচার সাজানো** | `codebase-design` | `api-and-interface-design` |
-| **ক্লিন ও ইউনিক UI ডিজাইন (এআই-স্লপ ছাড়া)** | `frontend-design-complete` | `better-colors`, `better-typography` |
-| **প্রোডাকশন-গ্রেড React / Tailwind কম্পোনেন্ট তৈরি** | `frontend-ui-engineering` | `tailwind-4-docs`, `pick-ui-library` |
-| **স্ক্র্যাচ থেকে মাখনের মতো মসৃণ ওয়েব অ্যানিমেশন** | `animate` | `apple-design`, `emil-design-eng` |
-| **Next.js / React-এ পেজ ট্রানজিশন ও শেয়ার্ড এলিমেন্ট** | `vercel-react-view-transitions` | `animate` |
-| **ফোনে ওয়েব অ্যাপকে ১০০% নেটিভ অ্যাপের মতো বানানো** | `mobile-native` | `animate-expo` (React Native হলে) |
-| **বাস্তব চরম বাজে ডেটা দিয়ে UI স্ট্রেস-টেস্ট করা** | `break-ui` | `break` (আলাদা টেস্ট পেজ চাইলে) |
-| **কম্পোনেন্টের ৩-৪টি ভিন্ন ডিজাইন বানিয়ে দেখা** | `variant` | `prototype` |
-| **Next.js Core Web Vitals ও ক্যাশিং অপ্টিমাইজেশন** | `nextjs-performance` | `vercel-react-best-practices` |
-| **Next.js App Router-এ লগইন ও রোল-বেসড এক্সেস (RBAC)** | `nextjs-authentication` | `nextjs-app-router-patterns` |
-| **Django ব্যাকএন্ড মডেল, ভিউ ও API তৈরি** | `django-patterns` | `django-expert` |
-| **Django ডেটাবেস ও N+1 কুয়েরির স্পিড বাড়ানো** | `django-perf-review` | `performance-optimization` |
-| **হাই-পারফরম্যান্স অ্যাসিনক্রোনাস FastAPI ব্যাকএন্ড** | `fastapi-patterns` | `fastapi-async-patterns`, `fastapi` |
-| **মেশিন লার্নিং মডেল ট্রেইনিং বা LLM ফাইন-টিউনিং** | `ai-ml-development` | `ml-pipeline` |
-| **প্রোডাকশন MLOps পাইপলাইন ও মডেল সার্ভিং** | `ml-pipeline` | `mle-workflow`, `deploying-machine-learning-models` |
-| **কোডের সিকিউরিটি অডিট ও বাগ চেকিং** | `security-audit` | `code-review-and-quality` |
-| **কোড মার্জ করার আগে রিগ্রেশন ও কোয়ালিটি রিভিউ** | `code-review-and-quality` | `nextjs-code-review` / `react-doctor` |
-| **ব্রাউজারে এন্ড-টু-এন্ড অটোমেটেড টেস্টিং** | `playwright-cli` | `browser-testing-with-devtools` |
-| **নতুন প্রজেক্টের জন্য চমৎকার README লেখা** | `crafting-effective-readmes` | `readme-optimization` (অডিট করতে) |
-| **চ্যাটবটের ক্লিশে ভাষা মুছে মানুষের মতো স্বাভাবিক লেখা** | `humanizer` | `no-ai-slop` (লেখকের কণ্ঠস্বর বজায় রেখে) |
+| **System Architecture & Module Boundaries** | `codebase-design` | `api-and-interface-design` |
+| **UI Design without AI Slop** | `frontend-design-complete` | `better-colors`, `better-typography` |
+| **Production React & Tailwind Components** | `frontend-ui-engineering` | `tailwind-4-docs`, `pick-ui-library` |
+| **Web Animations from Scratch** | `animate` | `apple-design`, `emil-design-eng` |
+| **Next.js Page Transitions & Shared Elements** | `vercel-react-view-transitions` | `animate` |
+| **Native Feel on Mobile Web Apps** | `mobile-native` | `animate-expo` (React Native) |
+| **UI Stress-Testing with Worst-Case Data** | `break-ui` | `break` (Visual isolation page) |
+| **Design Variations & Comparison** | `variant` | `prototype` |
+| **Next.js Core Web Vitals & Caching** | `nextjs-performance` | `vercel-react-best-practices` |
+| **Next.js Authentication & RBAC** | `nextjs-authentication` | `nextjs-app-router-patterns` |
+| **Django Backend Models, Views & APIs** | `django-patterns` | `django-expert` |
+| **Django Database Queries & N+1 Fixes** | `django-perf-review` | `performance-optimization` |
+| **High-Throughput Async FastAPI APIs** | `fastapi-patterns` | `fastapi-async-patterns`, `fastapi` |
+| **ML Model Training & LLM Fine-Tuning** | `ai-ml-development` | `ml-pipeline` |
+| **MLOps Pipeline & Model Serving** | `ml-pipeline` | `mle-workflow`, `deploying-machine-learning-models` |
+| **Code Security & Bug Checking** | `security-audit` | `code-review-and-quality` |
+| **Pre-Merge Regression & Code Review** | `code-review-and-quality` | `nextjs-code-review` / `react-doctor` |
+| **End-to-End Automated Browser Testing** | `playwright-cli` | `browser-testing-with-devtools` |
+| **Writing Open-Source READMEs** | `crafting-effective-readmes` | `readme-optimization` (for audits) |
+| **Scrubbing AI Writing Tells** | `humanizer` | `no-ai-slop` (to keep author voice) |
 
 ---
 
-## 🎨 ১. UI ডিজাইন, ভিজ্যুয়াল ডিরেকশন ও ফাউন্ডেশন (Visual Foundations)
+## 1. Architecture, Interfaces & Security
 
-স্ক্র্যাচ থেকে নতুন কোনো পেজ, ড্যাশবোর্ড বা কম্পোনেন্টের ডিজাইন শুরু করার সময় এই স্কিলগুলো লাগবে:
-
-- **`frontend-design-complete`**
-  - **কখন ব্যবহার করবেন:** জেনেরিক চ্যাটজিপিটি মার্কা "AI-slop" ডিজাইন (যেমন: সাদা ব্যাকগ্রাউন্ডে বেগুনি গ্রেডিয়েন্ট, সাদামাটা কার্ড) এড়িয়ে প্রফেশনাল, ইউনিক ও সাহসী আর্ট ডিরেকশন (Brutalist, Editorial, Minimalist ইত্যাদি) তৈরি করতে।
-- **`impeccable`**
-  - **কখন ব্যবহার করবেন:** কোনো বিদ্যমান ডিজাইন যখন অতিরিক্ত ঘিঞ্জি বা সাদামাটা মনে হয়, তখন তার ভিজ্যুয়াল ভারসাম্য, স্পেসিং এবং ফোকাস নিখুঁত করতে।
-- **`better-colors`**
-  - **কখন ব্যবহার করবেন:** কালার প্যালেট তৈরি করতে, আধুনিক OKLCH কালার ফরম্যাট সেট করতে এবং ডার্ক মোডের জন্য কালার টোকেন ও কনট্রাস্ট (WCAG) নিশ্চিত করতে।
-- **`better-typography`**
-  - **কখন ব্যবহার করবেন:** টাইপ স্কেল (Heading, Body সাইজ), ফন্ট পেয়ারিং, লাইন-হাইট এবং লেখা কেটে যাওয়া (truncation) সুন্দরভাবে ম্যানেজ করতে।
-- **`better-layout`**
-  - **কখন ব্যবহার করবেন:** রেসপন্সিভ গ্রিড তৈরি, কন্টেইনার স্পেসিং, প্যাডিং এবং বিভিন্ন স্ক্রিন সাইজে লেআউট ভেঙে যাওয়া ঠেকাতে।
-- **`better-ui`**
-  - **কখন ব্যবহার করবেন:** নিখুঁত ফিজিক্যাল ডিটেইলস ঠিক করতে—যেমন কনসেন্ট্রিক বর্ডার রেডিয়াস (`outer = inner + padding`), শক্ত বর্ডারের বদলে সফট শ্যাডো রিংস এবং আইকন অপটিক্যাল ব্যালেন্সিং।
-- **`better-writing`**
-  - **কখন ব্যবহার করবেন:** বাটনের টেক্সট, ফিল্ড লেবেল, খালি অবস্থার মেসেজ (Empty states) এবং এরর মেসেজ পরিষ্কার ও ইউজার-ফ্রেন্ডলি করতে।
-- **`better-accessibility`**
-  - **কখন ব্যবহার করবেন:** কীবোর্ড দিয়ে পুরো সাইট চালানো যায় কিনা (ফোকাস রিং), স্ক্রিন রিডার সাপোর্ট এবং কমপক্ষে 44x44px ট্যাপ টার্গেট নিশ্চিত করতে।
-- **`better-interface`**
-  - **কখন ব্যবহার করবেন:** কালার, টাইপোগ্রাফি, স্পেসিং, রাইটিং এবং এক্সেসিবিলিটি—এই সব কটি বিষয় এক ক্লিকে একীভূত রিভিউ করতে।
-- **`build-design`**
-  - **কখন ব্যবহার করবেন:** ফিগমা (Figma) স্ক্রিনশট বা ডিজাইনের ছবি দেখে সরাসরি আপনার কোডের বিদ্যমান টোকেন দিয়ে পিক্সেল-পারফেক্ট কোড লিখতে।
+- **`codebase-design`**: বড় ফিচার শুরুর আগে Deep Module আর্কিটেকচার তৈরি করতে (জটিল বিজনেস লজিক ছোট ও স্পষ্ট Interface-এর পেছনে রাখা)।
+- **`api-and-interface-design`**: Frontend ও Backend-এর মধ্যে অপরিবর্তনশীল ও পরিষ্কার REST / GraphQL Type Contract তৈরি করতে।
+- **`code-review-and-quality`**: যেকোনো কোড মার্জ করার আগে Regression ও Mutation Testing দিয়ে কোয়ালিটি ভেরিফাই করতে।
+- **`security-audit`**: Authentication, RBAC Permissions, SQL Injection, XSS এবং Secret Leak স্ক্যান করতে।
 
 ---
 
-## 🧩 ২. UI কম্পোনেন্ট আর্কিটেকচার ও ফ্রন্টএন্ড কোডিং (Component Engineering)
+## 2. Frontend Design, UI & Motion
 
-ডিজাইন ঠিক হওয়ার পর যখন আপনি সরাসরি রিঅ্যাক্ট বা এইচটিএমএল কোড লিখতে বসবেন:
+> বিস্তারিত গাইডলাইন, লেআউট গাইড এবং Impeccable কমান্ডগুলোর জন্য পড়ুন: **[UI Skills Handbook](ui.md)**
 
-- **`frontend-ui-engineering`**
-  - **কখন ব্যবহার করবেন:** ক্লিন রিঅ্যাক্ট কোড আর্কিটেকচার লিখতে। কনফিগারেশনের চেয়ে কম্পোজিশন (`<Card><CardHeader/></Card>`) প্রাধান্য দেওয়া, স্টেট ম্যানেজমেন্ট এবং ফর্ম হ্যান্ডলিংয়ে।
-- **`frontend-patterns`**
-  - **কখন ব্যবহার করবেন:** রিঅ্যাক্ট এবং নেক্সট.জেএস কম্পোনেন্টে অপ্রয়োজনীয় রি-রেন্ডারিং বন্ধ করতে এবং স্টেট ফ্লো পরিচ্ছন্ন রাখতে।
-- **`tailwind-4-docs`**
-  - **কখন ব্যবহার করবেন:** Tailwind CSS v4-এর আধুনিক সিনট্যাক্স, `@theme` ডিরেক্টিভ এবং নতুন CSS-ফার্স্ট ইউটিলিটি ব্যবহার করতে।
-- **`pick-ui-library`**
-  - **কখন ব্যবহার করবেন:** আপনার প্রজেক্টের জন্য কোন কম্পোনেন্ট লাইব্রেরি সেরা হবে (shadcn/ui, Radix, Base UI, ইত্যাদি) তা নিরপেক্ষভাবে বেছে নিতে।
-- **`react`**
-  - **কখন ব্যবহার করবেন:** JSON স্পেসিফিকেশন থেকে ডায়নামিক রিঅ্যাক্ট কম্পোনেন্ট রেন্ডার করতে (`@json-render/react`)।
-- **`react-components`**
-  - **কখন ব্যবহার করবেন:** Stitch ডিজাইনের সাথে মডুলার রিঅ্যাক্ট কম্পোনেন্ট সিঙ্ক করতে।
-- **`react-doctor`**
-  - **কখন ব্যবহার করবেন:** রিঅ্যাক্ট কোডবেসে হুক ভায়োলেশন, স্টেট মিউটেশন বা মেমোরি লিক আছে কিনা তা স্ক্যান ও ফিক্স করতে।
-- **`htmx`**
-  - **কখন ব্যবহার করবেন:** ভারী রিঅ্যাক্ট/এসপিএ ফ্রেমওয়ার্ক ছাড়া সরাসরি সার্ভার-সাইড HTML দিয়ে ডায়নামিক ইন্টারঅ্যাকশন তৈরি করতে।
-- **`alpine-js`**
-  - **কখন ব্যবহার করবেন:** ব্যাকএন্ড টেমপ্লেটে (যেমন Django বা Laravel) ড্রপডাউন, মোডাল বা টগলের মতো হালকা রিঅ্যাক্টিভ কাজ করতে।
+- **`frontend-design-complete`**: জেনেরিক ChatGPT স্টাইলের সাদামাটা "AI-slop" ডিজাইন এড়িয়ে প্রফেশনাল, ইউনিক আর্ট ডিরেকশন তৈরি করতে।
+- **`impeccable`**: পুরো UI-এর ভিজ্যুয়াল হায়ারার্কি, ব্যালেন্স এবং ফিনিশিং ক্রাফট টপ-কোম্পানির ডিজাইনারদের মানে নিয়ে যেতে।
+- **`frontend-ui-engineering`**: ক্লিন React কোড আর্কিটেকচার—Composition over configuration, কাস্টম হুক ও ফর্ম স্টেট হ্যান্ডলিং।
+- **`tailwind-4-docs`**: Tailwind CSS v4-এর আধুনিক `@theme` কনফিগারেশন ও নতুন CSS-first ইউটিলিটি ব্যবহার করতে।
+- **`animate`**: স্ক্র্যাচ থেকে ওয়েব অ্যানিমেশন তৈরি—Spring Physics, Cubic-bezier Easing এবং এন্ট্রি/এক্সিট ট্রানজিশন বানাতে।
+- **`apple-design`**: অ্যাপল স্টাইলের ফ্লুইড জেসচার, Translucent Glass Materials (`backdrop-filter`) এবং মোমেন্টাম স্প্রিং বটম-শিট বানাতে।
+- **`ask-sonner`**: চমৎকার ও রেসপন্সিভ Sonner Toast নোটিফিকেশন যুক্ত করতে।
+- **`break-ui`**: বাস্তবজীবনের চরম বাজে ডেটা দিয়ে ইন-প্লেস স্ট্রেস-টেস্ট করতে।
+- **`break`**: আলাদা টেস্ট পেজ বানিয়ে কম্পোনেন্টের সব ভিজ্যুয়াল স্টেট পাশাপাশি দেখতে।
+- **`variant`**: একই কম্পোনেন্টের ৩–৪টি ভিন্ন ডিজাইন ভ্যারিয়েশন তৈরি করে তুলনা করতে।
 
 ---
 
-## 🎬 ৩. মোশন, অ্যানিমেশন ও অ্যাপল-গ্রেড ক্রাফট (Motion & Polish)
+## 3. Next.js & Full-Stack React
 
-UI-তে প্রাণ আনতে এবং প্রিমিয়াম অনুভূতি তৈরি করতে:
-
-- **`animate`**
-  - **কখন ব্যবহার করবেন:** যেকোনো ওয়েব অ্যানিমেশন স্ক্র্যাচ থেকে বানাতে—স্প্রিং ফিজিক্স, এন্ট্রি/এক্সিট অ্যানিমেশন এবং ইন্টারাপ্টেবল ট্রানজিশন তৈরিতে।
-- **`emil-design-eng`**
-  - **কখন ব্যবহার করবেন:** বাটনের ক্লিক ফিডব্যাক, কার্ডের সূক্ষ্ম হভার এফেক্ট এবং সফটওয়্যারের অদৃশ্য চমৎকার ডিটেইলস নিখুঁত করতে।
-- **`apple-design`**
-  - **কখন ব্যবহার করবেন:** অ্যাপলের মতো ফ্লুইড জেসচার, ট্রান্সলুসেন্ট গ্লাস মেটেরিয়াল (`backdrop-filter`) এবং মসৃণ বটম-শিট বানাতে।
-- **`animate-expo`**
-  - **কখন ব্যবহার করবেন:** React Native / Expo মোবাইল অ্যাপে Reanimated এবং হ্যাপটিক ফিডব্যাক দিয়ে মোশন তৈরি করতে।
-- **`animation-vocabulary`**
-  - **কখন ব্যবহার করবেন:** কোনো অ্যানিমেশন মাথায় আছে কিন্তু তার টেকনিক্যাল নাম জানেন না (যেমন: "Rubber-banding", "Pop in")—সঠিক টার্ম খুঁজে পেতে।
-- **`find-animation-opportunities`**
-  - **কখন ব্যবহার করবেন:** পুরো কোডবেস স্ক্যান করে খুঁজে বের করতে কোথায় কোথায় সূক্ষ্ম মোশন দিলে সাইটটি আরও জীবন্ত লাগবে।
-- **`review-animations`**
-  - **কখন ব্যবহার করবেন:** কোডের অ্যানিমেশন পারফরম্যান্স চেক করতে—GPU কম্পোজিটর ব্যবহার হচ্ছে কিনা, ব্যাটারি বা ফ্রেম ড্রপ হচ্ছে কিনা।
-- **`improve-animations`**
-  - **কখন ব্যবহার করবেন:** একটি বড় প্রজেক্টের সমস্ত অ্যানিমেশন কোড রিফ্যাক্টর করার জন্য ধাপে ধাপে রোডম্যাপ তৈরি করতে।
-- **`ask-sonner`**
-  - **কখন ব্যবহার করবেন:** চমৎকার ও রেসপন্সিভ টোস্ট নোটিফিকেশন (সাকসেস, এরর, প্রমিজ টোস্ট) যুক্ত করতে।
-- **`vercel-react-view-transitions`**
-  - **কখন ব্যবহার করবেন:** এক পেজ থেকে অন্য পেজে যাওয়ার সময় মসৃণ নেটিভ অ্যাপের মতো View Transitions এবং শেয়ার্ড এলিমেন্ট ট্রানজিশন দিতে।
+- **`nextjs-developer`**: App Router ফিচার—Server Actions, Parallel Routes, রুট হ্যান্ডলার এবং স্ট্রিমিং SSR কোডিংয়ে।
+- **`nextjs-app-router-patterns`**: Server Components ও Client Components বাউন্ডারি নিখুঁতভাবে আলাদা করতে এবং ডেটা ফেচিং আর্কিটেকচারে।
+- **`nextjs-authentication`**: Auth.js v5 (NextAuth), ডেটাবেস এডাপ্টার, OAuth লগইন এবং রোল-বেসড সিকিউরিটি মিডলওয়্যার সেট করতে।
+- **`nextjs-performance`**: Core Web Vitals (LCP, INP, CLS) ১০০ করতে, ইমেজ/ফন্ট অপটিমাইজেশন এবং `revalidateTag` দিয়ে অ্যাডভান্সড ক্যাশিংয়ে।
+- **`nextjs-code-review`**: Next.js কোডবেসে সার্ভার সাইড সিকিউরিটি লিক, বাউন্ডারি ভুল বা ক্যাশ প্রবলেম অডিট করতে।
+- **`vercel-react-best-practices`**: Vercel Engineering-এর ৭০টি পারফরম্যান্স রুলস মেনে বান্ডেল সাইজ কমাতে ও ডায়নামিক ইম্পোর্ট করতে।
 
 ---
 
-## 🧪 ৪. UI টেস্টিং, ভ্যারিয়েশন ও স্ট্রেস-টেস্টিং (UI Testing & Hardening)
+## 4. Backend Engineering: Python & Django
 
-শিপ করার আগে কম্পোনেন্ট যেন রিয়েল ডেটাতে কোনোভাবেই না ভাঙে:
-
-- **`break-ui` (Emil Kowalski)**
-  - **কখন ব্যবহার করবেন:** কম্পোনেন্টের ভেতরেই একটি টগল বসিয়ে বাস্তবজীবনের চরম বাজে ডেটা (অতিরিক্ত বড় নাম, ১টি আইটেম, শূন্য ডেটা, আজব ইমেইল) দিয়ে দেখতে লেআউট নষ্ট হয় কিনা।
-- **`break` (Jakub Krehel)**
-  - **কখন ব্যবহার করবেন:** একটি আলাদা টেস্ট পেজ বানিয়ে কম্পোনেন্টের সব ভিজ্যুয়াল স্টেট (hover, active, disabled, focus) পাশাপাশি দেখতে।
-- **`variant`**
-  - **কখন ব্যবহার করবেন:** একই কম্পোনেন্টের ৩–৪টি ভিন্ন ডিজাইন তৈরি করে ক্লায়েন্ট বা নিজের চোখের সামনে তুলনা করতে।
-- **`prototype`**
-  - **কখন ব্যবহার করবেন:** কোনো নতুন আইডিয়া দ্রুত কোড করে ২-৩টি সম্পূর্ণ ভিন্ন কার্যপদ্ধতি পরখ করে দেখতে।
-- **`state-machine`**
-  - **কখন ব্যবহার করবেন:** কোনো জটিল কম্পোনেন্টের সব কটি পসিবল স্টেট (Loading, Error, Empty, Success, Editing) একটি সুইচার দিয়ে ড্রাইভ করতে।
-- **`explain-interface`**
-  - **কখন ব্যবহার করবেন:** ইন্টারনেটের কোনো সুন্দর সাইটের অ্যানিমেশন বা ইন্টারফেস কীভাবে তৈরি হয়েছে তা স্ক্রিনশট বা লিংক দিয়ে বুঝতে।
+- **`django-patterns`**: পরিচ্ছন্ন Django আর্কিটেকচার, সার্ভিস লেয়ার, মডুলার অ্যাপ স্ট্রাকচার এবং DRF REST API তৈরিতে।
+- **`django-expert`**: DRF Serializers, ViewSets, কাস্টম ম্যানেজার এবং Django টেস্ট কেস দ্রুত রেফারেন্স করতে।
+- **`django-perf-review`**: Sentry-র গাইডলাইনে ডেটাবেস অডিট করতে—`N+1` কুয়েরি দূর করা, `select_related`/`prefetch_related` ঠিক করা এবং ইনডেক্সিংয়ে।
+- **`python-design-patterns`**: পাইথনে অবজেক্ট ও ফাংশনাল ডিজাইন প্যাটার্ন (KISS, SOLID, Composition) সঠিকভাবে প্রয়োগ করতে।
+- **`python-performance-optimization`**: পাইথনের ধীর গতির ফাংশন `cProfile` দিয়ে মেপে বটলনেক এবং মেমোরি লিক ফিক্স করতে।
 
 ---
 
-## ⚡ ৫. Next.js ও ফুল-স্ট্যাক রিঅ্যাক্ট (Next.js Ecosystem)
+## 5. Backend Engineering: FastAPI
 
-Next.js App Router প্রজেক্টে হাই-পারফরম্যান্স ডেভেলপমেন্টের জন্য:
-
-- **`nextjs-developer`**
-  - **কখন ব্যবহার করবেন:** App Router ফিচার—Server Actions, Parallel Routes, রুট হ্যান্ডলার এবং স্ট্রিমিং SSR কোডিংয়ে।
-- **`nextjs-app-router-patterns`**
-  - **কখন ব্যবহার করবেন:** সার্ভার কম্পোনেন্ট ও ক্লায়েন্ট কম্পোনেন্টের বাউন্ডারি নিখুঁতভাবে আলাদা করতে এবং ডেটা ফেচিং আর্কিটেকচারে।
-- **`nextjs-authentication`**
-  - **কখন ব্যবহার করবেন:** Auth.js v5 (NextAuth), ডেটাবেস এডাপ্টার, সোশ্যাল লগইন এবং রোল-বেসড সিকিউরিটি মিডলওয়্যার সেট করতে।
-- **`nextjs-performance`**
-  - **কখন ব্যবহার করবেন:** Core Web Vitals (LCP, INP, CLS) ১০০ করতে, ইমেজ/ফন্ট অপটিমাইজেশন এবং `revalidateTag` দিয়ে অ্যাডভান্সড ক্যাশিংয়ে।
-- **`nextjs-code-review`**
-  - **কখন ব্যবহার করবেন:** Next.js কোডবেসে সার্ভার সাইড সিকিউরিটি লিক, বাউন্ডারি ভুল বা ক্যাশ প্রবলেম আছে কিনা অডিট করতে।
-- **`vercel-react-best-practices`**
-  - **কখন ব্যবহার করবেন:** ভার্সেল ইঞ্জিনিয়ারিং-এর ৭০টি পারফরম্যান্স রুলস মেনে বান্ডেল সাইজ কমাতে ও ডায়নামিক ইম্পোর্ট করতে।
+- **`fastapi`**: সাধারণ FastAPI এন্ডপয়েন্ট, Pydantic ভ্যালিডেশন, ডিপেনডেন্সি ইনজেকশন (`Depends`) এবং Server-Sent Events (SSE) তৈরিতে।
+- **`fastapi-patterns`**: প্রোডাকশন লেভেলের ক্লিন আর্কিটেকচার—সার্ভিস লেয়ার, রিপোজিটরি প্যাটার্ন ও ইন্টিগ্রেশন টেস্টিংয়ে।
+- **`fastapi-async-patterns`**: উচ্চ Concurrency নিশ্চিত করতে—Non-blocking ডিবি পুল (asyncpg), asyncio টাস্ক গ্রুপস ও ব্যাকগ্রাউন্ড ওয়ার্কার্স চালাতে।
 
 ---
 
-## 🐍 ৬. ব্যাকএন্ড: পাইথন ও জ্যাঙ্গো (Python & Django)
+## 6. Systems & Native: Go & Swift
 
-Django ব্যাকএন্ড ও এপিআই ডেভেলপমেন্টের জন্য:
-
-- **`django-patterns`**
-  - **কখন ব্যবহার করবেন:** পরিচ্ছন্ন Django আর্কিটেকচার, সার্ভিস লেয়ার, মডুলার অ্যাপ স্ট্রাকচার এবং DRF REST API তৈরিতে।
-- **`django-expert`**
-  - **কখন ব্যবহার করবেন:** DRF Serializers, ViewSets, কাস্টম ম্যানেজার এবং Django টেস্ট কেস দ্রুত রেফারেন্স করতে।
-- **`django-perf-review`**
-  - **কখন ব্যবহার করবেন:** Sentry-র গাইডলাইনে ডেটাবেস অডিট করতে—`N+1` কুয়েরি দূর করা, `select_related`/`prefetch_related` ঠিক করা এবং ইনডেক্সিংয়ে।
-- **`python-design-patterns`**
-  - **কখন ব্যবহার করবেন:** পাইথনে অবজেক্ট ও ফাংশনাল ডিজাইন প্যাটার্ন (KISS, SOLID, Composition) সঠিকভাবে প্রয়োগ করতে।
-- **`python-performance-optimization`**
-  - **কখন ব্যবহার করবেন:** পাইথনের ধীর গতির ফাংশন `cProfile` দিয়ে মেপে বটলনেক এবং মেমোরি লিক ফিক্স করতে।
+- **`golang-design-patterns`**: Idiomatic Go কোড লিখতে—Functional Options Pattern, Constructor API, Error Wrapping (`errors.Is`/`As`) ও Graceful Shutdown।
+- **`golang-popular-libraries`**: গো প্রজেক্টের জন্য পরীক্ষিত প্রোডাকশন-রেডি লাইব্রেরি (Routing, Logging, DB) বেছে নিতে।
+- **`golang-documentation`**: গো কোডের সুন্দর Godoc কমেন্ট, এক্সাম্পল টেস্ট এবং প্যাকেজ ডকুমেন্টেশন লিখতে।
+- **`write-swift`**: আধুনিক Swift 6 কোড লিখতে—Actor Concurrency, Data-race Safety, Value Types ও ARC মেমোরি ম্যানেজমেন্ট।
 
 ---
 
-## 🚀 ৭. ব্যাকএন্ড: ফাস্টএপিআই (FastAPI APIs)
+## 7. AI, Machine Learning & MLOps
 
-অ্যাসিনক্রোনাস হাই-স্পিড মাইক্রোসার্ভিস ও এপিআই তৈরিতে:
-
-- **`fastapi`**
-  - **কখন ব্যবহার করবেন:** সাধারণ FastAPI এন্ডপয়েন্ট, Pydantic ভ্যালিডেশন, ডিপেনডেন্সি ইনজেকশন (`Depends`) এবং সার্ভার-সেন্ট ইভেন্টস (SSE) তৈরিতে।
-- **`fastapi-patterns`**
-  - **কখন ব্যবহার করবেন:** প্রোডাকশন লেভেলের ক্লিন আর্কিটেকচার—সার্ভিস লেয়ার, রিপোজিটরি প্যাটার্ন ও ইন্টিগ্রেশন টেস্টিংয়ে।
-- **`fastapi-async-patterns`**
-  - **কখন ব্যবহার করবেন:** উচ্চ কনকারেন্সি নিশ্চিত করতে—নন-ব্লকিং ডিবি পুল (asyncpg), asyncio টাস্ক গ্রুপস ও ব্যাকগ্রাউন্ড ওয়ার্কার্স চালাতে।
+- **`ai-ml-development`**: PyTorch বা TensorFlow দিয়ে মডেল ট্রেইনিং, ডেটাসেট পাইপলাইন এবং LLM Fine-tuning-এ।
+- **`ml-pipeline`**: MLOps ইনফ্রাস্ট্রাকচার তৈরিতে—Airflow/Kubeflow দিয়ে পাইপলাইন অর্কেস্ট্রেশন, MLflow দিয়ে ট্র্যাকিং ও Feast ফিচার স্টোর সেটআপে।
+- **`mle-workflow`**: প্রোডাকশন ML কন্ট্রাক্ট তৈরি, মডেল ভ্যালিডেশন, ড্রিফ্ট মনিটরিং এবং স্বয়ংক্রিয় রোলব্যাক মেকানিজমে।
+- **`deploying-machine-learning-models`**: ট্রেইন্ড মডেলকে প্রোডাকশনে সার্ভ করতে (FastAPI, Triton, ONNX Runtime) লো-লেটেন্সি সহকারে।
 
 ---
 
-## 🐹 ৮. সিস্টেম ও নেটিভ: গো ও সুইফট (Go & Swift)
+## 8. Testing, QA & DevTools
 
-কম্পাইল্ড ব্যাকএন্ড ও নেটিভ সফটওয়্যার তৈরিতে:
-
-- **`golang-design-patterns`**
-  - **কখন ব্যবহার করবেন:** ইডিওম্যাটিক গো কোড লিখতে—ফাংশনাল অপশন প্যাটার্ন, কনস্ট্রাক্টর এপিআই, এরর র‍্যাপিং ও গ্রেসফুল শাটডাউন।
-- **`golang-popular-libraries`**
-  - **কখন ব্যবহার করবেন:** গো প্রজেক্টের জন্য পরীক্ষিত প্রোডাকশন-রেডি লাইব্রেরি (রাউটিং, লগিং, ডিবি) বেছে নিতে।
-- **`golang-documentation`**
-  - **কখন ব্যবহার করবেন:** গো কোডের সুন্দর Godoc কমেন্ট, এক্সাম্পল টেস্ট এবং প্যাকেজ ডকুমেন্টেশন লিখতে।
-- **`write-swift`**
-  - **কখন ব্যবহার করবেন:** আধুনিক Swift 6 কোড লিখতে—Actor কনকারেন্সি, ডেটা-রেস সেফটি, ভ্যালু টাইপস ও ARC ম্যানেজমেন্ট।
+- **`browser-testing-with-devtools`**: লাইভ Chrome ব্রাউজারে DOM এবং ভিজ্যুয়াল আউটপুট টেস্ট করতে।
+- **`chrome-devtools-mcp`**: রিয়েল-টাইম কনসোল এরর ধরা, নেটওয়ার্ক রিকোয়েস্ট ট্র্যাক করা এবং লাইভ CSS ইনস্পেক্ট করতে।
+- **`playwright-cli`**: স্বয়ংক্রিয়ভাবে ব্রাউজারে ক্লিক, ফর্ম ফিলআপ এবং End-to-End অটোমেশন টেস্ট চালাতে।
+- **`performance-optimization`**: Frontend থেকে Backend পর্যন্ত পুরো সিস্টেমের স্পিড বটলনেক খুঁজে ফিক্স করতে।
 
 ---
 
-## 🤖 ৯. এআই, মেশিন লার্নিং ও MLOps (AI & ML Pipelines)
+## 9. Documentation & Copywriting
 
-মডেল ট্রেইনিং থেকে প্রোডাকশন সার্ভিং পর্যন্ত:
-
-- **`ai-ml-development`**
-  - **কখন ব্যবহার করবেন:** PyTorch বা TensorFlow দিয়ে মডেল ট্রেইনিং, ডেটাসেট প্রসেসিং এবং LLM ফাইন-টিউনিংয়ে।
-- **`ml-pipeline`**
-  - **কখন ব্যবহার করবেন:** MLOps ইনফ্রাস্ট্রাকচার তৈরিতে—Airflow/Kubeflow দিয়ে পাইপলাইন অর্কেস্ট্রেশন, MLflow দিয়ে ট্র্যাকিং ও Feast ফিচার স্টোর সেটআপে।
-- **`mle-workflow`**
-  - **কখন ব্যবহার করবেন:** প্রোডাকশন ML কন্ট্রাক্ট তৈরি, মডেল ভ্যালিডেশন, ড্রিফ্ট মনিটরিং এবং স্বয়ংক্রিয় রোলব্যাক মেকানিজমে।
-- **`deploying-machine-learning-models`**
-  - **কখন ব্যবহার করবেন:** ট্রেইন্ড মডেলকে প্রোডাকশনে সার্ভ করতে (FastAPI, Triton, ONNX Runtime) লো-লেটেন্সি সহকারে।
+- **`crafting-effective-readmes`**: যেকোনো নতুন প্রজেক্টের (CLI, লাইব্রেরি বা ওয়েব অ্যাপ) চমৎকার প্রফেশনাল README লিখতে।
+- **`readme-optimization`**: বিদ্যমান কোনো README অডিট করে কীভাবে ডেভেলপার কনভার্শন বাড়ানো যায় তা অপটিমাইজ করতে।
+- **`no-ai-slop`**: নিজের লেখা ড্রাফট বা আর্টিকেলের নিজস্ব ভয়েস ঠিক রেখে অতিরিক্ত ফুলঝুড়ি ছেঁটে পরিচ্ছন্ন করতে।
+- **`humanizer`**: AI-এর মুখস্থ চ্যাটবট স্টাইল ভাষা (Forced triads, Staged openers, ফাঁকা দাবি) দূর করে খাঁটি মানুষের মতো লিখতে।
 
 ---
 
-## 🏛️ ১০. আর্কিটেকচার, সিকিউরিটি ও কোয়ালিটি (Architecture & Security)
+## 10. Mobile-Native & Cloud Operations
 
-প্রজেক্টের মেরুদণ্ড শক্ত ও নিরাপদ রাখতে:
-
-- **`codebase-design`**
-  - **কখন ব্যবহার করবেন:** বড় ফিচার শুরুর আগে ডিপ মডিউল ডিজাইন করতে (জটিল লজিক ছোট ও স্পষ্ট ইন্টারফেসের পেছনে রাখা)।
-- **`api-and-interface-design`**
-  - **কখন ব্যবহার করবেন:** ফ্রন্টএন্ড ও ব্যাকএন্ডের মধ্যে অপরিবর্তনশীল ও পরিষ্কার টাইপ কন্ট্রাক্ট তৈরি করতে।
-- **`code-review-and-quality`**
-  - **কখন ব্যবহার করবেন:** যেকোনো কোড মার্জ করার আগে রিগ্রেশন ও মিউটেশন টেস্টিং দিয়ে কোয়ালিটি নিশ্চিত করতে।
-- **`security-audit`**
-  - **কখন ব্যবহার করবেন:** অথেনটিকেশন, রোল-বেসড পারমিশন, SQL ইনজেকশন, XSS এবং সিক্রেট লিক স্ক্যান করতে।
+- **`mobile-native`**: ফোনে ওয়েবসাইটকে অ্যাপের মতো বানাতে—Touch delay দূর করা, Sticky hover বন্ধ করা, Notch spacing এবং 100vh বাগ ফিক্স করতে।
+- **`nextdeploy-cli`**: NextDeploy CLI দিয়ে অ্যাপ ডিপ্লয় ও কনটেইনার কোড সিঙ্ক করতে।
+- **`nextdeploy-mcp`**: MCP টুলের মাধ্যমে স্বয়ংক্রিয়ভাবে ক্লাউড ডিপ্লয়মেন্ট চালাতে।
+- **`api-recon-and-docs`**: লুকানো এপিআই এন্ডপয়েন্ট বা Swagger ডক খুঁজে অ্যাটাক সারফেস পর্যালোচনা করতে।
 
 ---
 
-## 🔍 ১১. ব্রাউজার টেস্টিং ও অটোমেশন (Testing & QA)
+## Real-World Project Blueprints
 
-কোড রান করার পর রিয়েল ব্রাউজারে যাচাই করতে:
+### Blueprint 1: E-Commerce CRM Development
+1. **Architecture & Seams**: `codebase-design` দিয়ে কাস্টমার ও অর্ডার লজিক আলাদা Deep Module-এ রাখুন।
+2. **Backend & Queries**: `django-patterns` + `django-perf-review` (বা `fastapi-patterns`) দিয়ে ডেটাবেস কুয়েরি অপ্টিমাইজড রাখুন।
+3. **Admin Dashboard UI**: `frontend-design-complete` দিয়ে ড্যাশবোর্ড থিম এবং `frontend-ui-engineering` দিয়ে কম্পোনেন্ট আর্কিটেকচার সাজান।
+4. **Micro-Interactions**: `better-ui` দিয়ে অপটিক্যাল ব্যালেন্স এবং `ask-sonner` দিয়ে ইনস্ট্যান্ট টোস্ট নোটিফিকেশন দিন।
+5. **Stress-Testing**: `break-ui` দিয়ে বড় বড় কাস্টমার নাম বা খালি ডেটা দিয়ে টেবিল টেস্ট করুন।
+6. **Security & Review**: `security-audit` এবং `code-review-and-quality` চালিয়ে ফাইনাল মার্জ করুন।
 
-- **`browser-testing-with-devtools`**
-  - **কখন ব্যবহার করবেন:** লাইভ ক্রোম ব্রাউজারে ডম এবং ভিজ্যুয়াল আউটপুট টেস্ট করতে।
-- **`chrome-devtools-mcp`**
-  - **কখন ব্যবহার করবেন:** রিয়েল-টাইম কনসোল এরর ধরা, নেটওয়ার্ক রিকোয়েস্ট ট্র্যাক করা এবং লাইভ সিএসএস ইনস্পেক্ট করতে।
-- **`playwright-cli`**
-  - **কখন ব্যবহার করবেন:** স্বয়ংক্রিয়ভাবে ব্রাউজারে ক্লিক, ফর্ম ফিলআপ এবং এন্ড-টু-এন্ড অটোমেশন টেস্ট চালাতে।
-- **`performance-optimization`**
-  - **কখন ব্যবহার করবেন:** ফ্রন্টএন্ড থেকে ব্যাকএন্ড পর্যন্ত পুরো সিস্টেমের স্পিড বটলনেক খুঁজে ফিক্স করতে।
-
----
-
-## 📝 ১২. ডকুমেন্টেশন ও অ্যান্টি-এআই রাইটিং (Documentation & Copy)
-
-প্রজেক্টের লেখা ও ডকুমেন্টেশন পরিষ্কার করতে:
-
-- **`crafting-effective-readmes`**
-  - **কখন ব্যবহার করবেন:** যেকোনো নতুন প্রজেক্টের (CLI, লাইব্রেরি বা ওয়েব অ্যাপ) চমৎকার প্রফেশনাল README লিখতে।
-- **`readme-optimization`**
-  - **কখন ব্যবহার করবেন:** বিদ্যমান কোনো README অডিট করে কীভাবে ডেভেলপারদের দ্রুত অনবোর্ড করানো যায় তা অপটিমাইজ করতে।
-- **`no-ai-slop`**
-  - **কখন ব্যবহার করবেন:** নিজের লেখা ড্রাফট বা আর্টিকেলের নিজস্ব ভয়েস ঠিক রেখে অতিরিক্ত ফুলঝুড়ি ছেঁটে পরিচ্ছন্ন করতে।
-- **`humanizer`**
-  - **কখন ব্যবহার করবেন:** এআই-এর মুখস্থ চ্যাটবট স্টাইল ভাষা (forced triads, staged openers, ফাঁকা দাবি) দূর করে খাঁটি মানুষের মতো লিখতে।
-
----
-
-## 📱 ১৩. মোবাইল অপ্টিমাইজেশন ও ক্লাউড অপারেশন (Mobile & Cloud)
-
-- **`mobile-native`**
-  - **কখন ব্যবহার করবেন:** ফোনে ওয়েবসাইটকে অ্যাপের মতো বানাতে—টাচ ডিলে দূর করা, স্টিকি হভার বন্ধ করা, নচ স্পেসিং এবং 100vh বাগ ফিক্স করতে।
-- **`nextdeploy-cli`**
-  - **কখন ব্যবহার করবেন:** NextDeploy CLI দিয়ে অ্যাপ ডিপ্লয় ও কনটেইনার কোড সিঙ্ক করতে।
-- **`nextdeploy-mcp`**
-  - **কখন ব্যবহার করবেন:** MCP টুলের মাধ্যমে স্বয়ংক্রিয়ভাবে ক্লাউড ডিপ্লয়মেন্ট চালাতে।
-- **`api-recon-and-docs`**
-  - **কখন ব্যবহার করবেন:** লুকানো এপিআই এন্ডপয়েন্ট বা সোয়াগার ডক খুঁজে অ্যাটাক সারফেস পর্যালোচনা করতে।
-
----
-
-## 🏗️ বাস্তব প্রজেক্টের স্টেপ-বাই-স্টেপ ব্লুপ্রিন্ট (Blueprints)
-
-### উদাহরণ ১: একটি ই-কমার্স CRM তৈরি করতে চাইলে
-1. **আর্কিটেকচার:** `codebase-design` দিয়ে কাস্টমার ও অর্ডার লজিক আলাদা মডিউলে রাখুন।
-2. **ব্যাকএন্ড ও ডেটাবেস:** `django-patterns` + `django-perf-review` (বা `fastapi-patterns`) দিয়ে ডেটাবেস কুয়েরি ফাস্ট রাখুন।
-3. **ড্যাশবোর্ড UI:** `frontend-design-complete` দিয়ে ইউনিক ড্যাশবোর্ড থিম এবং `frontend-ui-engineering` দিয়ে কম্পোনেন্ট আর্কিটেকচার সাজান।
-4. **মাইক্রো-ইন্টারঅ্যাকশন:** `better-ui` দিয়ে অপটিক্যাল ব্যালেন্স এবং `ask-sonner` দিয়ে ইনস্ট্যান্ট টোস্ট নোটিফিকেশন দিন।
-5. **স্ট্রেস-টেস্ট:** `break-ui` দিয়ে বড় বড় কাস্টমার নাম বা খালি ডেটা দিয়ে টেবিল টেস্ট করুন।
-6. **সিকিউরিটি ও রিভিউ:** `security-audit` এবং `code-review-and-quality` চালিয়ে ফাইনাল মার্জ করুন।
-
-### উদাহরণ ২: আধুনিক হাই-কনভার্টিং SaaS ল্যান্ডিং পেজ
-1. **ডিজাইন ফাউন্ডেশন:** `frontend-design-complete` + `better-typography` + `better-colors`।
-2. **স্মুথ মোশন:** `animate` (হিরো সেকশন এন্ট্রি) + `apple-design` (প্রিমিয়াম গ্লাস কার্ড)।
-3. **মোবাইল অপ্টিমাইজেশন:** `mobile-native` (যাতে ফোনে কোনো টাচ ল্যাগ বা হরিজন্টাল স্ক্রল না হয়)।
-4. **টেক্সট ও কপি:** `better-writing` + `no-ai-slop` (যাতে লেখা রোবটিক না লেগে কনভার্শন বাড়ায়)।
-5. **স্পিড অডিট:** `nextjs-performance` দিয়ে ১০০/১০০ লাইটহাউস স্কোর নিশ্চিত করুন।
+### Blueprint 2: High-Converting SaaS Landing Page
+1. **Design Foundations**: `frontend-design-complete` + `better-typography` + `better-colors`।
+2. **Smooth Motion**: `animate` (হিরো সেকশন এন্ট্রি) + `apple-design` (প্রিমিয়াম গ্লাস কার্ড)।
+3. **Mobile Polish**: `mobile-native` (যাতে ফোনে কোনো টাচ ল্যাগ বা হরিজন্টাল স্ক্রল না হয়)।
+4. **Copywriting**: `better-writing` + `no-ai-slop` (যাতে লেখা রোবটিক না লেগে কনভার্শন বাড়ায়)।
+5. **Performance Audit**: `nextjs-performance` দিয়ে ১০০/১০০ লাইটহাউস স্কোর নিশ্চিত করুন।
