@@ -14,6 +14,7 @@ A structured directory and decision matrix for all 75 AI coding agent skills ins
 | :--- | :--- | :--- |
 | **System Architecture & Module Boundaries** | `codebase-design` | `api-and-interface-design` |
 | **OpenAPI 3.1 & Swagger Documentation** | `api-designer` | `api-and-interface-design`, `fastapi` |
+| **Landing Pages, Portfolios & Redesigns** | `taste-skill` | `impeccable` (Persuade mode) |
 | **UI Design without AI Slop** | `frontend-design-complete` | `better-colors`, `better-typography` |
 | **Production React & Tailwind Components** | `frontend-ui-engineering` | `tailwind-4-docs`, `pick-ui-library` |
 | **Web Animations from Scratch** | `animate` | `apple-design`, `emil-design-eng` |
@@ -50,6 +51,7 @@ A structured directory and decision matrix for all 75 AI coding agent skills ins
 
 > বিস্তারিত গাইডলাইন, লেআউট গাইড এবং Impeccable কমান্ডগুলোর জন্য পড়ুন: **[UI Skills Handbook](ui.md)**
 
+- **`taste-skill`**: ল্যান্ডিং পেজ, পোর্টফোলিও এবং রিডিজাইনের জন্য অ্যান্টি-স্লপ ফ্রন্টএন্ড ফ্রেমওয়ার্ক। ৩টি ডায়াল দিয়ে জেনেরিক এআই টেমপ্লেট লুক প্রতিরোধ করে।
 - **`frontend-design-complete`**: জেনেরিক ChatGPT স্টাইলের সাদামাটা "AI-slop" ডিজাইন এড়িয়ে প্রফেশনাল, ইউনিক আর্ট ডিরেকশন তৈরি করতে।
 - **`impeccable`**: পুরো UI-এর ভিজ্যুয়াল হায়ারার্কি, ব্যালেন্স এবং ফিনিশিং ক্রাফট টপ-কোম্পানির ডিজাইনারদের মানে নিয়ে যেতে।
 - **`frontend-ui-engineering`**: ক্লিন React কোড আর্কিটেকচার—Composition over configuration, কাস্টম হুক ও ফর্ম স্টেট হ্যান্ডলিং।
@@ -60,6 +62,7 @@ A structured directory and decision matrix for all 75 AI coding agent skills ins
 - **`break-ui`**: বাস্তবজীবনের চরম বাজে ডেটা দিয়ে ইন-প্লেস স্ট্রেস-টেস্ট করতে।
 - **`break`**: আলাদা টেস্ট পেজ বানিয়ে কম্পোনেন্টের সব ভিজ্যুয়াল স্টেট পাশাপাশি দেখতে।
 - **`variant`**: একই কম্পোনেন্টের ৩–৪টি ভিন্ন ডিজাইন ভ্যারিয়েশন তৈরি করে তুলনা করতে।
+- **`design-lab`**: ৫টি ভিন্ন ভ্যারিয়েশনে UI এক্সপ্লোরেশন ও লাইভ ফিডব্যাক সুইচার বানাতে।
 
 ---
 

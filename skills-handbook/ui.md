@@ -8,6 +8,7 @@ A complete deep-dive guide for all Frontend, UI/UX, Motion, and Design skills in
 
 নতুন কোনো পেজ, ড্যাশবোর্ড বা কম্পোনেন্টের ডিজাইন শুরু করার সময় এই স্কিলগুলো ব্যবহার করবেন:
 
+- **`taste-skill`**: ল্যান্ডিং পেজ, পোর্টফোলিও এবং রিডিজাইনের জন্য অ্যান্টি-স্লপ ফ্রন্টএন্ড ফ্রেমওয়ার্ক। এটি ব্রিফ পড়ে সঠিক ডিজাইন ডিরেকশন ধরে নেয় এবং ৩টি ডায়াল (`DESIGN_VARIANCE`, `MOTION_INTENSITY`, `VISUAL_DENSITY`) দিয়ে জেনেরিক এআই টেমপ্লেট লুক প্রতিরোধ করে।
 - **`frontend-design-complete`**: জেনেরিক ChatGPT স্টাইলের সাদামাটা "AI-slop" ডিজাইন (যেমন: সাদা ব্যাকগ্রাউন্ডে পার্পল গ্রেডিয়েন্ট, ক্লিশে কার্ড) বাদ দিয়ে প্রফেশনাল, ইউনিক ও সাহসী আর্ট ডিরেকশন (Brutalist, Luxury, Editorial, Minimalist) তৈরি করতে।
 - **`impeccable`**: পুরো UI-এর ভিজ্যুয়াল হায়ারার্কি, ব্যালেন্স এবং ফিনিশিং ক্রাফট টপ-কোম্পানির ডিজাইনারদের মানে নিয়ে যেতে।
 - **`better-colors`**: আধুনিক OKLCH কালার প্যালেট তৈরি, ডার্ক মোডের জন্য Semantic Tokens (`--surface`, `--accent`) ডিফাইন এবং WCAG Contrast রেশিও নিশ্চিত করতে।
@@ -61,6 +62,7 @@ UI-তে প্রিমিয়াম অনুভূতি এবং মসৃ�
 - **`break-ui` (Emil Kowalski)**: কম্পোনেন্টের ভেতরেই একটি টগল বসিয়ে বাস্তবজীবনের চরম বাজে ডেটা (অতিরিক্ত বড় নাম, ১টি আইটেম, শূন্য ডেটা, আনব্রেকেবল ইমেইল) দিয়ে দেখতে লেআউট নষ্ট হয় কিনা।
 - **`break` (Jakub Krehel)**: একটি আলাদা টেস্ট পেজ বানিয়ে কম্পোনেন্টের সব ভিজ্যুয়াল স্টেট (hover, active, disabled, focus) পাশাপাশি বড় ক্যানভাসে দেখতে।
 - **`variant`**: একই কম্পোনেন্টের ৩–৪টি ভিন্ন ডিজাইন ভ্যারিয়েশন তৈরি করে ক্লায়েন্ট বা নিজের চোখের সামনে তুলনা করতে।
+- **`design-lab`**: প্রজেক্ট স্ট্যাক ও টোকেন বুঝে একবারে ৫টি সম্পূর্ণ ভিন্ন ডিজাইন ভ্যারিয়েন্ট তৈরি করে এবং ব্রাউজারে লাইভ ফিডব্যাক ওভারলে সুইচার দিয়ে সহজে তুলনা ও পছন্দ করতে দেয়।
 - **`prototype`**: কোনো নতুন আইডিয়া দ্রুত কোড করে ২-৩টি সম্পূর্ণ ভিন্ন কার্যপদ্ধতি পরখ করে দেখতে।
 - **`state-machine`**: জটিল কম্পোনেন্টের সব কটি পসিবল স্টেট (Loading, Error, Empty, Success, Editing) একটি সুইচার দিয়ে ড্রাইভ করতে।
 - **`explain-interface`**: ইন্টারনেটের কোনো সুন্দর সাইটের অ্যানিমেশন বা ইন্টারফেস কীভাবে তৈরি হয়েছে তা স্ক্রিনশট বা লিংক দিয়ে রিভার্স-ইঞ্জিনিয়ারিং করতে।
@@ -80,20 +82,32 @@ UI-তে প্রিমিয়াম অনুভূতি এবং মসৃ�
 ### Useful Sub-Commands & Prompts
 আপনি প্রম্পটে সরাসরি নিচের কাজগুলো মেনশন করে `impeccable` চালাতে পারেন:
 
-| Command / Intent | কখন ব্যবহার করবেন |
-| :--- | :--- |
-| `shape [feature]` | কোড লেখার আগে পুরো UX/UI ফ্লো ও লেআউট প্ল্যান করতে। |
-| `document` | বর্তমান কোডবেস থেকে স্বয়ংক্রিয়ভাবে একটি `DESIGN.md` তৈরি করতে। |
-| `extract [target]` | বিক্ষিপ্ত কোড থেকে Reusable Tokens ও Components আলাদা করে ডিজাইন সিস্টেমে নিতে। |
-| `critique [target]` | হিউরিস্টিক স্কোরিং সহ সম্পূর্ণ UX ডিজাইন রিভিউ পেতে। |
-| `polish [target]` | শিপ করার আগের ফাইনাল ফিনিশিং পাস (প্যাডিং, শ্যাডো, অপটিক্যাল ব্যালেন্স)। |
-| `bolder [target]` | কোনো ডিজাইন যদি অতিরিক্ত সাদামাটা বা বোরিং মনে হয়, তাকে বোল্ড ও আকর্ষণীয় করতে। |
-| `quieter [target]` | কোনো ডিজাইন যদি অতিরিক্ত লাউড বা চটকদার মনে হয়, তাকে মার্জিত ও শান্ত করতে। |
-| `distill [target]` | অপ্রয়োজনীয় জটিলতা ও ক্লটার বাদ দিয়ে ডিজাইনের কোর এসেন্স ধরে রাখতে। |
-| `harden [target]` | এজ-কেস, এরর স্টেট এবং বিভিন্ন স্ক্রিন সাইজের জন্য প্রোডাকশন-রেডি করতে। |
-| `colorize [target]` | কালার প্যালেট নতুন করে সাজাতে বা রিভ্যাম্প করতে। |
-| `clarify [target]` | লেআউট হায়ারার্কি এবং ইনফরমেশন আর্কিটেকচার পরিষ্কার করতে। |
-| `adapt [target]` | মোবাইল, ট্যাবলেট ও ডেস্কটপের জন্য রেসপন্সিভ অ্যাডাপটেশন করতে। |
+| Command | Category | Description | Reference |
+| :--- | :--- | :--- | :--- |
+| `craft [feature]` | Build | Deprecated alias for an ordinary new-work request | [reference/craft.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/craft.md) |
+| `shape [feature]` | Build | Plan UX/UI before writing code | [reference/shape.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/shape.md) |
+| `init` | Build | Capture durable product context in PRODUCT.md | [reference/init.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/init.md) |
+| `document` | Build | Generate DESIGN.md from existing project code | [reference/document.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/document.md) |
+| `extract [target]` | Build | Pull reusable tokens and components into design system | [reference/extract.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/extract.md) |
+| `critique [target]` | Evaluate | UX design review with heuristic scoring | [reference/critique.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/critique.md) |
+| `audit [target]` | Evaluate | Technical quality checks (a11y, perf, responsive) | [reference/audit.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/audit.md) · native: [reference/audit.native.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/audit.native.md) |
+| `polish [target]` | Refine | Final quality pass before shipping | [reference/polish.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/polish.md) |
+| `bolder [target]` | Refine | Amplify safe or bland designs | [reference/bolder.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/bolder.md) |
+| `quieter [target]` | Refine | Tone down aggressive or overstimulating designs | [reference/quieter.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/quieter.md) |
+| `distill [target]` | Refine | Strip to essence, remove complexity | [reference/distill.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/distill.md) |
+| `harden [target]` | Refine | Production-ready: errors, i18n, edge cases | [reference/harden.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/harden.md) |
+| `onboard [target]` | Refine | Design first-run flows, empty states, activation | [reference/onboard.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/onboard.md) |
+| `animate [target]` | Enhance | Add purposeful animations and motion | [reference/animate.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/animate.md) |
+| `colorize [target]` | Enhance | Add strategic color to monochromatic UIs | [reference/colorize.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/colorize.md) |
+| `typeset [target]` | Enhance | Improve typography hierarchy and fonts | [reference/typeset.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/typeset.md) |
+| `layout [target]` | Enhance | Fix spacing, rhythm, and visual hierarchy | [reference/layout.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/layout.md) |
+| `delight [target]` | Enhance | Add personality and memorable touches | [reference/delight.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/delight.md) |
+| `overdrive [target]` | Enhance | Push past conventional limits | [reference/overdrive.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/overdrive.md) |
+| `clarify [target]` | Fix | Improve UX copy, labels, and error messages | [reference/clarify.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/clarify.md) |
+| `adapt [target]` | Fix | Adapt for different devices and screen sizes | [reference/adapt.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/adapt.md) · native: [reference/adapt.native.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/adapt.native.md) |
+| `optimize [target]` | Fix | Diagnose and fix UI performance | [reference/optimize.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/optimize.md) |
+| `live` | Iterate | Visual variant mode: pick elements in the browser, iterate on alternatives | [reference/live.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/live.md) |
+| `generate [n] [action] [element]` | Iterate | Variants, versions, or alternatives of a named element to choose from in the live browser; no manual picking |
 
 ---
 
@@ -101,18 +115,26 @@ UI-তে প্রিমিয়াম অনুভূতি এবং মসৃ�
 
 লেআউট নিয়ে কনফিউশন দূর করতে নিচের রুলগুলো মেনে চলুন:
 
-1. **নতুন পেজের সামগ্রিক রেসপন্সিভ স্ট্রাকচার বানাতে:**
+1. **ল্যান্ডিং পেজ, পোর্টফোলিও বা রিডিজাইন বানাতে:**
+   - ব্যবহার করুন: `taste-skill`
+   - কেন: `impeccable` মাঝেমধ্যে ল্যান্ডিং পেজে অতিরিক্ত জেনেরিক বা খাপছাড়া ডিজাইন করে ফেলে। `taste-skill` এর ৩টি ডায়াল (Variance, Motion, Density) এবং ব্রিফ ইনফারেন্স দিয়ে সুনির্দিষ্ট আর্ট ডিরেকশন ধরে রাখে।
+
+2. **ড্যাশবোর্ড, সেটিংস, টুলস বা প্রোডাক্ট UI বানাতে:**
+   - ব্যবহার করুন: `impeccable` (Operate মোড)
+   - ফোকাস: ফাংশনাল ও শান্ত ইন্টারফেস, জটিল ফর্ম ও টেবিল লেআউট।
+
+3. **নতুন পেজের সামগ্রিক রেসপন্সিভ স্ট্রাকচার বানাতে:**
    - ব্যবহার করুন: `better-layout`
    - ফোকাস: Grid columns, Max-width container, Section gaps, Reading order.
 
-2. **React কম্পোনেন্টের ভেতরের লেআউট ও স্টেট ফ্লো বানাতে:**
+4. **React কম্পোনেন্টের ভেতরের লেআউট ও স্টেট ফ্লো বানাতে:**
    - ব্যবহার করুন: `frontend-ui-engineering`
    - ফোকাস: Flexbox alignment, Sub-components composition, Form controls.
 
-3. **মোবাইলে টাচ, নচ ও ফুলস্ক্রিন ফিক্স করতে:**
+5. **মোবাইলে টাচ, নচ ও ফুলস্ক্রিন ফিক্স করতে:**
    - ব্যবহার করুন: `mobile-native`
    - ফোকাস: `100dvh` ফিক্স, iOS Notch padding, Safe-area insets, Disable sticky hover flash.
 
-4. **জটিল ড্যাশবোর্ডের হায়ারার্কি রিফ্যাক্টর করতে:**
+6. **জটিল ড্যাশবোর্ডের হায়ারার্কি রিফ্যাক্টর করতে:**
    - ব্যবহার করুন: `impeccable` (কমান্ড: `clarify` অথবা `adapt`)
    - ফোকাস: তথ্যের গুরুত্ব অনুযায়ী লেআউট পুনর্বিন্যাস।
