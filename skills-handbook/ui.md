@@ -82,32 +82,32 @@ UI-তে প্রিমিয়াম অনুভূতি এবং মসৃ�
 ### Useful Sub-Commands & Prompts
 আপনি প্রম্পটে সরাসরি নিচের কাজগুলো মেনশন করে `impeccable` চালাতে পারেন:
 
-| Command | Category | Description | Reference |
-| :--- | :--- | :--- | :--- |
-| `craft [feature]` | Build | Deprecated alias for an ordinary new-work request | [reference/craft.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/craft.md) |
-| `shape [feature]` | Build | Plan UX/UI before writing code | [reference/shape.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/shape.md) |
-| `init` | Build | Capture durable product context in PRODUCT.md | [reference/init.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/init.md) |
-| `document` | Build | Generate DESIGN.md from existing project code | [reference/document.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/document.md) |
-| `extract [target]` | Build | Pull reusable tokens and components into design system | [reference/extract.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/extract.md) |
-| `critique [target]` | Evaluate | UX design review with heuristic scoring | [reference/critique.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/critique.md) |
-| `audit [target]` | Evaluate | Technical quality checks (a11y, perf, responsive) | [reference/audit.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/audit.md) · native: [reference/audit.native.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/audit.native.md) |
-| `polish [target]` | Refine | Final quality pass before shipping | [reference/polish.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/polish.md) |
-| `bolder [target]` | Refine | Amplify safe or bland designs | [reference/bolder.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/bolder.md) |
-| `quieter [target]` | Refine | Tone down aggressive or overstimulating designs | [reference/quieter.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/quieter.md) |
-| `distill [target]` | Refine | Strip to essence, remove complexity | [reference/distill.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/distill.md) |
-| `harden [target]` | Refine | Production-ready: errors, i18n, edge cases | [reference/harden.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/harden.md) |
-| `onboard [target]` | Refine | Design first-run flows, empty states, activation | [reference/onboard.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/onboard.md) |
-| `animate [target]` | Enhance | Add purposeful animations and motion | [reference/animate.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/animate.md) |
-| `colorize [target]` | Enhance | Add strategic color to monochromatic UIs | [reference/colorize.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/colorize.md) |
-| `typeset [target]` | Enhance | Improve typography hierarchy and fonts | [reference/typeset.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/typeset.md) |
-| `layout [target]` | Enhance | Fix spacing, rhythm, and visual hierarchy | [reference/layout.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/layout.md) |
-| `delight [target]` | Enhance | Add personality and memorable touches | [reference/delight.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/delight.md) |
-| `overdrive [target]` | Enhance | Push past conventional limits | [reference/overdrive.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/overdrive.md) |
-| `clarify [target]` | Fix | Improve UX copy, labels, and error messages | [reference/clarify.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/clarify.md) |
-| `adapt [target]` | Fix | Adapt for different devices and screen sizes | [reference/adapt.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/adapt.md) · native: [reference/adapt.native.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/adapt.native.md) |
-| `optimize [target]` | Fix | Diagnose and fix UI performance | [reference/optimize.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/optimize.md) |
-| `live` | Iterate | Visual variant mode: pick elements in the browser, iterate on alternatives | [reference/live.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/live.md) |
-| `generate [n] [action] [element]` | Iterate | Variants, versions, or alternatives of a named element to choose from in the live browser; no manual picking |
+| Command | Category | বিবরণ (বাংলা) | Description (English) | Reference |
+| :--- | :--- | :--- | :--- | :--- |
+| `craft [feature]` | Build | নতুন কাজের রিকোয়েস্টের পুরনো ফরম্যাট (Deprecated) | Deprecated alias for an ordinary new-work request | [reference/craft.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/craft.md) |
+| `shape [feature]` | Build | কোড লেখার আগে পুরো UX/UI কাঠামো ও ফ্লো প্ল্যান করা | Plan UX/UI before writing code | [reference/shape.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/shape.md) |
+| `init` | Build | প্রজেক্টের স্থায়ী কনটেক্সট `PRODUCT.md`-এ সংরক্ষণ করা | Capture durable product context in PRODUCT.md | [reference/init.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/init.md) |
+| `document` | Build | বিদ্যমান কোডবেস বিশ্লেষণ করে স্বয়ংক্রিয়ভাবে `DESIGN.md` তৈরি করা | Generate DESIGN.md from existing project code | [reference/document.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/document.md) |
+| `extract [target]` | Build | কোড থেকে Reusable Tokens ও Components আলাদা করে ডিজাইন সিস্টেমে নেওয়া | Pull reusable tokens and components into design system | [reference/extract.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/extract.md) |
+| `critique [target]` | Evaluate | হিউরিস্টিক স্কোরিংসহ নিরপেক্ষ ও গভীর UX ডিজাইন রিভিউ পাওয়া | UX design review with heuristic scoring | [reference/critique.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/critique.md) |
+| `audit [target]` | Evaluate | টেকনিক্যাল কোয়ালিটি চেক (এক্সেসিবিলিটি, পারফরম্যান্স, রেসপন্সিভনেস) | Technical quality checks (a11y, perf, responsive) | [reference/audit.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/audit.md) · native: [reference/audit.native.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/audit.native.md) |
+| `polish [target]` | Refine | শিপ বা রিলিজ করার আগের ফাইনাল কোয়ালিটি ফিনিশিং পাস | Final quality pass before shipping | [reference/polish.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/polish.md) |
+| `bolder [target]` | Refine | অতিরিক্ত সাদামাটা বা বোরিং ডিজাইনকে বোল্ড ও আকর্ষণীয় করা | Amplify safe or bland designs | [reference/bolder.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/bolder.md) |
+| `quieter [target]` | Refine | অতিরিক্ত লাউড বা চোখে লাগা ডিজাইনকে শান্ত ও মার্জিত করা | Tone down aggressive or overstimulating designs | [reference/quieter.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/quieter.md) |
+| `distill [target]` | Refine | অপ্রয়োজনীয় জটিলতা ছেঁটে ফেলে ডিজাইনের মূল এসেন্স ধরে রাখা | Strip to essence, remove complexity | [reference/distill.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/distill.md) |
+| `harden [target]` | Refine | প্রোডাকশন-রেডি করা: এরর স্টেট, আন্তর্জাতিকীকরণ (i18n), এজ-কেস হ্যান্ডলিং | Production-ready: errors, i18n, edge cases | [reference/harden.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/harden.md) |
+| `onboard [target]` | Refine | ফার্স্ট-রান ফ্লো, Empty States এবং ইউজার অ্যাক্টিভেশন ডিজাইন করা | Design first-run flows, empty states, activation | [reference/onboard.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/onboard.md) |
+| `animate [target]` | Enhance | উদ্দেশ্যমূলক অ্যানিমেশন ও মসৃণ ট্রানজিশন যোগ করা | Add purposeful animations and motion | [reference/animate.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/animate.md) |
+| `colorize [target]` | Enhance | একঘেয়ে মোনোক্রোম্যাটিক UI-তে কৌশলগত অ্যাকসেন্ট কালার ছড়ানো | Add strategic color to monochromatic UIs | [reference/colorize.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/colorize.md) |
+| `typeset [target]` | Enhance | ফন্ট নির্বাচন, হায়ারার্কি, সাইজিং ও টাইপোগ্রাফি রিদম উন্নত করা | Improve typography hierarchy and fonts | [reference/typeset.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/typeset.md) |
+| `layout [target]` | Enhance | স্পেসিং, প্যাডিং, কন্টেইনার রিদম ও ভিজ্যুয়াল হায়ারার্কি ফিক্স করা | Fix spacing, rhythm, and visual hierarchy | [reference/layout.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/layout.md) |
+| `delight [target]` | Enhance | ইন্টারফেসে ব্যক্তিত্ব ও স্মরণীয় মাইক্রো-টাচ যোগ করা | Add personality and memorable touches | [reference/delight.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/delight.md) |
+| `overdrive [target]` | Enhance | প্রচলিত ডিজাইনের গণ্ডি ভেঙে চরম এক্সপেরিমেন্টাল রূপ দেওয়া | Push past conventional limits | [reference/overdrive.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/overdrive.md) |
+| `clarify [target]` | Fix | বিভ্রান্তিকর UX কপি, লেবেল, বাটন টেক্সট ও এরর মেসেজ সহজবোধ্য করা | Improve UX copy, labels, and error messages | [reference/clarify.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/clarify.md) |
+| `adapt [target]` | Fix | মোবাইল, ট্যাবলেট, ডেস্কটপের মতো ভিন্ন স্ক্রিন সাইজের জন্য নিখুঁত অ্যাডাপ্ট করা | Adapt for different devices and screen sizes | [reference/adapt.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/adapt.md) · native: [reference/adapt.native.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/adapt.native.md) |
+| `optimize [target]` | Fix | UI রেন্ডারিং ল্যাগ ও ফ্রন্টএন্ড পারফরম্যান্স সমস্যা ডায়াগনোজ ও ফিক্স করা | Diagnose and fix UI performance | [reference/optimize.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/optimize.md) |
+| `live` | Iterate | ব্রাউজারে রিয়েল-টাইমে উপাদান সিলেক্ট করে বিকল্প ডিজাইন নিয়ে এক্সপেরিমেন্ট করা | Visual variant mode: pick elements in the browser, iterate on alternatives | [reference/live.md](https://github.com/pbakaus/impeccable/blob/main/skill/reference/live.md) |
+| `generate [n] [action] [element]` | Iterate | ব্রাউজারে দেখতে স্বয়ংক্রিয়ভাবে একাধিক বিকল্প ভ্যারিয়েন্ট জেনারেট করা | Variants, versions, or alternatives of a named element to choose from in the live browser; no manual picking |
 
 ---
 
