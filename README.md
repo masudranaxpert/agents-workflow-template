@@ -6,7 +6,7 @@ A lightweight, drop-in documentation workflow for coding agents (Codex, Cursor, 
 
 ```
 AGENTS.md              # agent instructions (commands, rules, workflow)
-skills-handbook/       # master directory and decision matrix for all 78 agent skills
+skills-handbook/       # master directory and decision matrix for all 82 agent skills
 .agents/
 ├── INDEX.md           # short entry point: links + active task
 ├── architecture.md    # stack, structure, decisions

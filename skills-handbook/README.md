@@ -1,6 +1,6 @@
 # Master Skills Handbook
 
-A structured directory and decision matrix for all 78 AI coding agent skills installed in the environment.
+A structured directory and decision matrix for all 82 AI coding agent skills installed in the environment.
 
 - For a dedicated deep dive into UI, design systems, and motion: **[UI Skills Handbook](ui.md)**
 - For battle-tested deep-audit prompts and Antigravity slash commands: **[Deep Prompting & Audit Guide](deep-prompts.md)**
@@ -13,8 +13,12 @@ A structured directory and decision matrix for all 78 AI coding agent skills ins
 | Task / Domain | Primary Skill | Supporting / Specialized Skill |
 | :--- | :--- | :--- |
 | **System Architecture & Module Boundaries** | `codebase-design` | `api-and-interface-design` |
+| **Database Architecture & Data-Intensive Systems** | `ddia-systems` | `codebase-design`, `django-perf-review` |
+| **Production Resilience & Fault Tolerance** | `release-it` | `security-audit`, `performance-optimization` |
 | **OpenAPI 3.1 & Swagger Documentation** | `api-designer` | `api-and-interface-design`, `fastapi` |
 | **Landing Pages, Portfolios & Redesigns** | `taste-skill` | `impeccable` (Persuade mode) |
+| **Conversion Rate & Funnel Optimization (CRO)** | `cro-methodology` | `taste-skill`, `better-writing` |
+| **Tactical UI Polish & Form/Table Hierarchy** | `refactoring-ui` | `better-ui`, `better-layout` |
 | **UI Design without AI Slop** | `frontend-design-complete` | `better-colors`, `better-typography` |
 | **Production React & Tailwind Components** | `frontend-ui-engineering` | `tailwind-4-docs`, `pick-ui-library` |
 | **Web Animations from Scratch** | `animate` | `apple-design`, `emil-design-eng` |
@@ -40,6 +44,8 @@ A structured directory and decision matrix for all 78 AI coding agent skills ins
 ## 1. Architecture, Interfaces & Security
 
 - **`codebase-design`**: বড় ফিচার শুরুর আগে Deep Module আর্কিটেকচার তৈরি করতে (জটিল বিজনেস লজিক ছোট ও স্পষ্ট Interface-এর পেছনে রাখা)।
+- **`ddia-systems`**: ডেটাবেস সিলেকশন, রেপ্লিকেশন ল্যাগ, ট্রানজ্যাকশন আইসোলেশন ও কনসিস্টেন্সি হ্যান্ডেল করার জন্য (Martin Kleppmann-এর DDIA ফ্রেমওয়ার্ক)।
+- **`release-it`**: প্রোডাকশন ক্র্যাশ প্রিভেনশন—Circuit Breaker, Timeouts, Bulkheads এবং Fail-fast প্যাটার্ন দিয়ে সিস্টেম স্টেবল রাখতে।
 - **`api-designer`**: OpenAPI 3.1 স্পেক তৈরি, Swagger রিকোয়েস্ট/রেসপন্স মডেল, RFC 7807 এরর হ্যান্ডলিং ও পেজিনেশন স্ট্যান্ডার্ড ডিজাইন করতে।
 - **`api-and-interface-design`**: Frontend ও Backend-এর মধ্যে অপরিবর্তনশীল ও পরিষ্কার REST / GraphQL Type Contract তৈরি করতে।
 - **`code-review-and-quality`**: যেকোনো কোড মার্জ করার আগে Regression ও Mutation Testing দিয়ে কোয়ালিটি ভেরিফাই করতে।
@@ -52,6 +58,8 @@ A structured directory and decision matrix for all 78 AI coding agent skills ins
 > বিস্তারিত গাইডলাইন, লেআউট গাইড এবং Impeccable কমান্ডগুলোর জন্য পড়ুন: **[UI Skills Handbook](ui.md)**
 
 - **`taste-skill`**: ল্যান্ডিং পেজ, পোর্টফোলিও এবং রিডিজাইনের জন্য অ্যান্টি-স্লপ ফ্রন্টএন্ড ফ্রেমওয়ার্ক। ৩টি ডায়াল দিয়ে জেনেরিক এআই টেমপ্লেট লুক প্রতিরোধ করে।
+- **`refactoring-ui`**: সাদা-কালোতে ডিজাইন শুরু (Grayscale-first), ফর্ম লেবেল ডিম্পাসাইজ করা এবং টেইলউইন্ডের ফিক্সড স্কেলিং দিয়ে প্রফেশনাল ফিনিশ দিতে।
+- **`cro-methodology`**: ল্যান্ডিং পেজ ও ই-কমার্সে কেন ভিজিটর ড্রপ-অফ করে বা কার্ট অ্যাবান্ডন করে তা বৈজ্ঞানিক ফ্রেমওয়ার্ক দিয়ে অডিট ও অপ্টিমাইজ করতে।
 - **`frontend-design-complete`**: জেনেরিক ChatGPT স্টাইলের সাদামাটা "AI-slop" ডিজাইন এড়িয়ে প্রফেশনাল, ইউনিক আর্ট ডিরেকশন তৈরি করতে।
 - **`impeccable`**: পুরো UI-এর ভিজ্যুয়াল হায়ারার্কি, ব্যালেন্স এবং ফিনিশিং ক্রাফট টপ-কোম্পানির ডিজাইনারদের মানে নিয়ে যেতে।
 - **`frontend-ui-engineering`**: ক্লিন React কোড আর্কিটেকচার—Composition over configuration, কাস্টম হুক ও ফর্ম স্টেট হ্যান্ডলিং।
