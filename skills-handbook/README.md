@@ -1,6 +1,6 @@
 # Master Skills Handbook
 
-A structured directory and decision matrix for all 82 AI coding agent skills installed in the environment.
+A structured directory and decision matrix for all 84 AI coding agent skills installed in the environment.
 
 - For a dedicated deep dive into UI, design systems, and motion: **[UI Skills Handbook](ui.md)**
 - For battle-tested deep-audit prompts and Antigravity slash commands: **[Deep Prompting & Audit Guide](deep-prompts.md)**
@@ -31,6 +31,8 @@ A structured directory and decision matrix for all 82 AI coding agent skills ins
 | **Django Backend Models, Views & APIs** | `django-patterns` | `django-expert` |
 | **Django Database Queries & N+1 Fixes** | `django-perf-review` | `performance-optimization` |
 | **High-Throughput Async FastAPI APIs** | `fastapi-patterns` | `fastapi-async-patterns`, `fastapi` |
+| **Modern PHP 8.3+, Laravel & Symfony** | `php-pro` | `php-best-practices` |
+| **PHP Type Safety & Clean Practices** | `php-best-practices` | `php-pro` |
 | **ML Model Training & LLM Fine-Tuning** | `ai-ml-development` | `ml-pipeline` |
 | **MLOps Pipeline & Model Serving** | `ml-pipeline` | `mle-workflow`, `deploying-machine-learning-models` |
 | **Code Security & Bug Checking** | `security-audit` | `code-review-and-quality` |
@@ -112,7 +114,14 @@ A structured directory and decision matrix for all 82 AI coding agent skills ins
 
 ---
 
-## 7. AI, Machine Learning & MLOps
+## 7. Backend Engineering: PHP 8.3+, Laravel & Symfony
+
+- **`php-pro`**: আধুনিক PHP 8.3+, Laravel এবং Symfony ফ্রেমওয়ার্ক আর্কিটেকচার, DTOs, PHPStan Level 9, Swoole Async প্যাটার্ন ও Pest/PHPUnit টেস্ট তৈরিতে।
+- **`php-best-practices`**: পিএইচপি কোডে Strict Typing (`declare(strict_types=1)`), আধুনিক টাইপ সিস্টেম (Union, Intersection, Nullable), Clean Code রুলস ও PSR স্ট্যান্ডার্ড মেনে চলতে।
+
+---
+
+## 8. AI, Machine Learning & MLOps
 
 - **`ai-ml-development`**: PyTorch বা TensorFlow দিয়ে মডেল ট্রেইনিং, ডেটাসেট পাইপলাইন এবং LLM Fine-tuning-এ।
 - **`ml-pipeline`**: MLOps ইনফ্রাস্ট্রাকচার তৈরিতে—Airflow/Kubeflow দিয়ে পাইপলাইন অর্কেস্ট্রেশন, MLflow দিয়ে ট্র্যাকিং ও Feast ফিচার স্টোর সেটআপে।
@@ -121,7 +130,7 @@ A structured directory and decision matrix for all 82 AI coding agent skills ins
 
 ---
 
-## 8. Testing, QA & DevTools
+## 9. Testing, QA & DevTools
 
 - **`browser-testing-with-devtools`**: লাইভ Chrome ব্রাউজারে DOM এবং ভিজ্যুয়াল আউটপুট টেস্ট করতে।
 - **`chrome-devtools-mcp`**: রিয়েল-টাইম কনসোল এরর ধরা, নেটওয়ার্ক রিকোয়েস্ট ট্র্যাক করা এবং লাইভ CSS ইনস্পেক্ট করতে।
@@ -130,7 +139,7 @@ A structured directory and decision matrix for all 82 AI coding agent skills ins
 
 ---
 
-## 9. Documentation & Copywriting
+## 10. Documentation & Copywriting
 
 - **`crafting-effective-readmes`**: যেকোনো নতুন প্রজেক্টের (CLI, লাইব্রেরি বা ওয়েব অ্যাপ) চমৎকার প্রফেশনাল README লিখতে।
 - **`readme-optimization`**: বিদ্যমান কোনো README অডিট করে কীভাবে ডেভেলপার কনভার্শন বাড়ানো যায় তা অপটিমাইজ করতে।
@@ -139,7 +148,7 @@ A structured directory and decision matrix for all 82 AI coding agent skills ins
 
 ---
 
-## 10. Mobile-Native & Cloud Operations
+## 11. Mobile-Native & Cloud Operations
 
 - **`mobile-native`**: ফোনে ওয়েবসাইটকে অ্যাপের মতো বানাতে—Touch delay দূর করা, Sticky hover বন্ধ করা, Notch spacing এবং 100vh বাগ ফিক্স করতে।
 - **`nextdeploy-cli`**: NextDeploy CLI দিয়ে অ্যাপ ডিপ্লয় ও কনটেইনার কোড সিঙ্ক করতে।
