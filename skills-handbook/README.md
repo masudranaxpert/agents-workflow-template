@@ -1,6 +1,6 @@
 # Master Skills Handbook
 
-A structured directory and decision matrix for all 87 AI coding agent skills installed in the environment.
+A structured directory and decision matrix for all 88 AI coding agent skills installed in the environment.
 
 - For a dedicated deep dive into UI, design systems, and motion: **[UI Skills Handbook](ui.md)**
 - For battle-tested deep-audit prompts and Antigravity slash commands: **[Deep Prompting & Audit Guide](deep-prompts.md)**
@@ -33,6 +33,7 @@ A structured directory and decision matrix for all 87 AI coding agent skills ins
 | **High-Throughput Async FastAPI APIs** | `fastapi-patterns` | `fastapi-async-patterns`, `fastapi` |
 | **Modern PHP 8.3+, Laravel & Symfony** | `php-pro` | `php-best-practices` |
 | **PHP Type Safety & Clean Practices** | `php-best-practices` | `php-pro` |
+| **Go Production Architecture & Style Guide** | `go-style-guide` | `golang-code-style`, `golang-design-patterns` |
 | **Go Project Structure & Layout** | `golang-project-layout` | `golang-design-patterns` |
 | **Go Code Style & Clarity** | `golang-code-style` | `golang-naming`, `golang-documentation` |
 | **Go Naming Conventions & Idioms** | `golang-naming` | `golang-code-style` |
@@ -110,6 +111,7 @@ A structured directory and decision matrix for all 87 AI coding agent skills ins
 
 ## 6. Systems & Native: Go & Swift
 
+- **`go-style-guide`**: সম্পূর্ণ Go ইঞ্জিনিয়ারিং গাইড—প্যাকেজ ডিজাইন, সার্ভিস/CLI আর্কিটেকচার, কনফিগ প্যাটার্ন (`Config` in -> struct out), সেন্টিনেল এররস, টেস্টেবিলিটি ও মেইনটেনেবিলিটি রিভিউ চেকলিস্ট।
 - **`golang-project-layout`**: স্ট্যান্ডার্ড Go প্রজেক্ট স্ট্রাকচার তৈরি করতে—`cmd/`, `internal/`, `pkg/` ডিরেক্টরি কনভেনশন, go.work ও মাল্টি-প্যাকেজ মোনোরিপো অর্গানাইজেশনে।
 - **`golang-code-style`**: Go কোডের স্টাইল ও ক্ল্যারিটি বজায় রাখতে—লাইন ব্রেকিং, ভ্যারিয়েবল ডিক্লেয়ারেশন, কন্ট্রোল ফ্লো ক্ল্যারিটি এবং কমেন্ট কনভেনশন।
 - **`golang-naming`**: Go-এর ইডিওমেটিক নামকরণ—প্যাকেজ, কনস্ট্রাক্টর (`New` বনাম `NewTypeName`), স্ট্রাক্ট, ইন্টারফেস, এরর (`ErrNotFound`), অ্যাক্রোনিম ও রিসিভার নেমিংয়ে।
