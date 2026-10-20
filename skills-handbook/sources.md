@@ -1,6 +1,6 @@
 # Skills Directory & Installation Sources
 
-A complete reference directory of all 90 agent skills installed in this setup. Includes direct GitHub upstream repositories, skills.sh marketplace links, and one-line installation commands so anyone can easily install and replicate this setup.
+A complete reference directory of all 91 agent skills installed in this setup. Includes direct GitHub upstream repositories, skills.sh marketplace links, and one-line installation commands so anyone can easily install and replicate this setup.
 
 ## How to Install Any Skill
 
@@ -20,7 +20,7 @@ git clone --depth 1 <github-url> ~/.config/skills/<skill-name>
 
 ---
 
-## Complete Skills Catalog (90 Skills)
+## Complete Skills Catalog (91 Skills)
 
 | # | Skill Name | Domain / Category | GitHub Upstream | skills.sh Link | One-Line Install Command |
 |---|---|---|---|---|---|
@@ -105,12 +105,13 @@ git clone --depth 1 <github-url> ~/.config/skills/<skill-name>
 | 79 | `release-it` | Production Stability & Resilience | [skills](https://github.com/wondelai/skills) | [wondelai](https://github.com/wondelai/skills) | `npx skills add wondelai/skills/release-it` |
 | 80 | `review-animations` | Motion & Polish | [skills](https://github.com/emilkowalski/skills) | [skills.sh](https://skills.sh/emilkowalski/skills/review-animations) | `npx skills add emilkowalski/skills/review-animations` |
 | 81 | `security-audit` | Security | [security-audit-skill](https://github.com/cloudflare/security-audit-skill) | [skills/security-audit](https://github.com/cloudflare/security-audit-skill/tree/main/skills/security-audit) | `npx skills add cloudflare/security-audit-skill/skills/security-audit` |
-| 82 | `state-machine` | Visual & Design Foundations | [skills](https://github.com/jakubkrehel/skills) | [skills.sh](https://skills.sh/jakubkrehel/skills/state-machine) | `npx skills add jakubkrehel/skills/state-machine` |
-| 83 | `subagent-driven-development` | Autonomous Multi-Agent Orchestration | [superpowers](https://github.com/obra/superpowers) | [skills.sh](https://skills.sh/obra/superpowers/subagent-driven-development) | `npx skills add obra/superpowers/subagent-driven-development` |
-| 84 | `tailwind-4-docs` | Frontend Styling | [Tailwind-Agent-Skills](https://github.com/Lombiq/Tailwind-Agent-Skills) | [skills/tailwind-4-docs](https://github.com/Lombiq/Tailwind-Agent-Skills/tree/dev/skills/tailwind-4-docs) | `npx skills add Lombiq/Tailwind-Agent-Skills/skills/tailwind-4-docs` |
-| 85 | `taste-skill` | Anti-Slop Frontend & Landing Pages | [taste-skill](https://github.com/Leonxlnx/taste-skill) | [tasteskill.dev](https://tasteskill.dev) | `npx skills add https://github.com/Leonxlnx/taste-skill` |
-| 86 | `variant` | Visual & Design Foundations | [skills](https://github.com/jakubkrehel/skills) | [skills.sh](https://skills.sh/jakubkrehel/skills/variant) | `npx skills add jakubkrehel/skills/variant` |
-| 87 | `vercel-react-best-practices` | React & Vercel | [agent-skills](https://github.com/vercel-labs/agent-skills) | [skills.sh](https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices) | `npx skills add vercel-labs/agent-skills/vercel-react-best-practices` |
-| 88 | `vercel-react-view-transitions` | React & Vercel | [agent-skills](https://github.com/vercel-labs/agent-skills) | [skills.sh](https://skills.sh/vercel-labs/agent-skills/vercel-react-view-transitions) | `npx skills add vercel-labs/agent-skills/vercel-react-view-transitions` |
-| 89 | `write-swift` | Motion & Polish | [skills](https://github.com/emilkowalski/skills) | [skills.sh](https://skills.sh/emilkowalski/skills/write-swift) | `npx skills add emilkowalski/skills/write-swift` |
-| 90 | `writing-plans` | Implementation Planning & TDD | [superpowers](https://github.com/obra/superpowers) | [skills.sh](https://skills.sh/obra/superpowers/writing-plans) | `npx skills add obra/superpowers/writing-plans` |
+| 82 | `software-architecture` | Architecture & Clean Code | [agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | [skills.sh](https://www.skills.sh/sickn33/agentic-awesome-skills/software-architecture) | `npx skills add sickn33/agentic-awesome-skills/software-architecture` |
+| 83 | `state-machine` | Visual & Design Foundations | [skills](https://github.com/jakubkrehel/skills) | [skills.sh](https://skills.sh/jakubkrehel/skills/state-machine) | `npx skills add jakubkrehel/skills/state-machine` |
+| 84 | `subagent-driven-development` | Autonomous Multi-Agent Orchestration | [superpowers](https://github.com/obra/superpowers) | [skills.sh](https://skills.sh/obra/superpowers/subagent-driven-development) | `npx skills add obra/superpowers/subagent-driven-development` |
+| 85 | `tailwind-4-docs` | Frontend Styling | [Tailwind-Agent-Skills](https://github.com/Lombiq/Tailwind-Agent-Skills) | [skills/tailwind-4-docs](https://github.com/Lombiq/Tailwind-Agent-Skills/tree/dev/skills/tailwind-4-docs) | `npx skills add Lombiq/Tailwind-Agent-Skills/skills/tailwind-4-docs` |
+| 86 | `taste-skill` | Anti-Slop Frontend & Landing Pages | [taste-skill](https://github.com/Leonxlnx/taste-skill) | [tasteskill.dev](https://tasteskill.dev) | `npx skills add https://github.com/Leonxlnx/taste-skill` |
+| 87 | `variant` | Visual & Design Foundations | [skills](https://github.com/jakubkrehel/skills) | [skills.sh](https://skills.sh/jakubkrehel/skills/variant) | `npx skills add jakubkrehel/skills/variant` |
+| 88 | `vercel-react-best-practices` | React & Vercel | [agent-skills](https://github.com/vercel-labs/agent-skills) | [skills.sh](https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices) | `npx skills add vercel-labs/agent-skills/vercel-react-best-practices` |
+| 89 | `vercel-react-view-transitions` | React & Vercel | [agent-skills](https://github.com/vercel-labs/agent-skills) | [skills.sh](https://skills.sh/vercel-labs/agent-skills/vercel-react-view-transitions) | `npx skills add vercel-labs/agent-skills/vercel-react-view-transitions` |
+| 90 | `write-swift` | Motion & Polish | [skills](https://github.com/emilkowalski/skills) | [skills.sh](https://skills.sh/emilkowalski/skills/write-swift) | `npx skills add emilkowalski/skills/write-swift` |
+| 91 | `writing-plans` | Implementation Planning & TDD | [superpowers](https://github.com/obra/superpowers) | [skills.sh](https://skills.sh/obra/superpowers/writing-plans) | `npx skills add obra/superpowers/writing-plans` |
