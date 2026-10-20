@@ -1,6 +1,6 @@
 # Master Skills Handbook
 
-A structured directory and decision matrix for all 88 AI coding agent skills installed in the environment.
+A structured directory and decision matrix for all 90 AI coding agent skills installed in the environment.
 
 - For a dedicated deep dive into UI, design systems, and motion: **[UI Skills Handbook](ui.md)**
 - For battle-tested deep-audit prompts and Antigravity slash commands: **[Deep Prompting & Audit Guide](deep-prompts.md)**
@@ -44,6 +44,8 @@ A structured directory and decision matrix for all 88 AI coding agent skills ins
 | **End-to-End Automated Browser Testing** | `playwright-cli` | `browser-testing-with-devtools` |
 | **Writing Open-Source READMEs** | `crafting-effective-readmes` | `readme-optimization` (for audits) |
 | **Scrubbing AI Writing Tells** | `humanizer` | `no-ai-slop` (to keep author voice) |
+| **Multi-Step Implementation Plans & TDD** | `writing-plans` | `subagent-driven-development`, `codebase-design` |
+| **Autonomous Subagent Plan Execution** | `subagent-driven-development` | `writing-plans`, `code-review-and-quality` |
 
 ---
 
@@ -162,6 +164,13 @@ A structured directory and decision matrix for all 88 AI coding agent skills ins
 - **`nextdeploy-cli`**: NextDeploy CLI দিয়ে অ্যাপ ডিপ্লয় ও কনটেইনার কোড সিঙ্ক করতে।
 - **`nextdeploy-mcp`**: MCP টুলের মাধ্যমে স্বয়ংক্রিয়ভাবে ক্লাউড ডিপ্লয়মেন্ট চালাতে।
 - **`api-recon-and-docs`**: লুকানো এপিআই এন্ডপয়েন্ট বা Swagger ডক খুঁজে অ্যাটাক সারফেস পর্যালোচনা করতে।
+
+---
+
+## 12. Multi-Agent Planning & Subagent Workflows
+
+- **`writing-plans`**: যেকোনো মাল্টি-স্টেপ ফিচার কোডিং শুরু করার আগে সুনির্দিষ্ট TDD ও bite-sized টাস্ক সহ স্বয়ংসম্পূর্ণ ইমপ্লিমেন্টেশন প্ল্যান লিখতে।
+- **`subagent-driven-development`**: তৈরি করা প্ল্যান অনুযায়ী প্রতি টাস্কের জন্য ফ্রেশ সাব-এজেন্ট ডিসপ্যাচ করা, স্পেক ও কোয়ালিটি রিভিউ এবং অটোমেটেড কন্টিনিউয়াস এক্সিকিউশন নিশ্চিত করতে।
 
 ---
 
