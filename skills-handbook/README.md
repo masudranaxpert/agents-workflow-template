@@ -1,6 +1,6 @@
 # Master Skills Handbook
 
-A structured directory and decision matrix for all 91 AI coding agent skills installed in the environment.
+A structured directory and decision matrix for all 92 AI coding agent skills installed in the environment.
 
 - For a dedicated deep dive into UI, design systems, and motion: **[UI Skills Handbook](ui.md)**
 - For battle-tested deep-audit prompts and Antigravity slash commands: **[Deep Prompting & Audit Guide](deep-prompts.md)**
@@ -14,6 +14,7 @@ A structured directory and decision matrix for all 91 AI coding agent skills ins
 | :--- | :--- | :--- |
 | **System Architecture & Module Boundaries** | `codebase-design` | `api-and-interface-design` |
 | **Clean Architecture & DDD Code Guidelines** | `software-architecture` | `codebase-design`, `api-and-interface-design` |
+| **Cross-Language Project Layout & Safe Refactoring** | `project-structure-refactoring` | `codebase-design`, `golang-project-layout` |
 | **Database Architecture & Data-Intensive Systems** | `ddia-systems` | `codebase-design`, `django-perf-review` |
 | **Production Resilience & Fault Tolerance** | `release-it` | `security-audit`, `performance-optimization` |
 | **OpenAPI 3.1 & Swagger Documentation** | `api-designer` | `api-and-interface-design`, `fastapi` |
@@ -54,6 +55,7 @@ A structured directory and decision matrix for all 91 AI coding agent skills ins
 
 - **`codebase-design`**: বড় ফিচার শুরুর আগে Deep Module আর্কিটেকচার তৈরি করতে (জটিল বিজনেস লজিক ছোট ও স্পষ্ট Interface-এর পেছনে রাখা)।
 - **`software-architecture`**: কোয়ালিটি-ফার্স্ট সফটওয়্যার আর্কিটেকচার—Clean Architecture, Domain-Driven Design (DDD), Early Return Pattern এবং লাইব্রেরি-ফার্স্ট ডেভেলপমেন্ট গাইডলাইন।
+- **`project-structure-refactoring`**: ক্রস-ল্যাঙ্গুয়েজ প্রজেক্ট স্ট্রাকচার ও সেফ রিফ্যাক্টরিং—প্যাকেজ-বাই-ফিচার আর্কিটেকচার, মনোরিপো লেআউট, গড ফাইল স্প্লিটিং, এবং `git mv` দিয়ে হিস্ট্রি প্রিজার্ভ করে কোডবেস মাইগ্রেশন।
 - **`ddia-systems`**: ডেটাবেস সিলেকশন, রেপ্লিকেশন ল্যাগ, ট্রানজ্যাকশন আইসোলেশন ও কনসিস্টেন্সি হ্যান্ডেল করার জন্য (Martin Kleppmann-এর DDIA ফ্রেমওয়ার্ক)।
 - **`release-it`**: প্রোডাকশন ক্র্যাশ প্রিভেনশন—Circuit Breaker, Timeouts, Bulkheads এবং Fail-fast প্যাটার্ন দিয়ে সিস্টেম স্টেবল রাখতে।
 - **`api-designer`**: OpenAPI 3.1 স্পেক তৈরি, Swagger রিকোয়েস্ট/রেসপন্স মডেল, RFC 7807 এরর হ্যান্ডলিং ও পেজিনেশন স্ট্যান্ডার্ড ডিজাইন করতে।

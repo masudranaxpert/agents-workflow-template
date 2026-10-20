@@ -1,6 +1,6 @@
 # Skills Directory & Installation Sources
 
-A complete reference directory of all 91 agent skills installed in this setup. Includes direct GitHub upstream repositories, skills.sh marketplace links, and one-line installation commands so anyone can easily install and replicate this setup.
+A complete reference directory of all 92 agent skills installed in this setup. Includes direct GitHub upstream repositories, skills.sh marketplace links, and one-line installation commands so anyone can easily install and replicate this setup.
 
 ## How to Install Any Skill
 
@@ -20,7 +20,7 @@ git clone --depth 1 <github-url> ~/.config/skills/<skill-name>
 
 ---
 
-## Complete Skills Catalog (91 Skills)
+## Complete Skills Catalog (92 Skills)
 
 | # | Skill Name | Domain / Category | GitHub Upstream | skills.sh Link | One-Line Install Command |
 |---|---|---|---|---|---|
@@ -93,25 +93,26 @@ git clone --depth 1 <github-url> ~/.config/skills/<skill-name>
 | 67 | `php-pro` | Modern PHP 8.3+, Laravel & Symfony | [claude-skills](https://github.com/Jeffallan/claude-skills) | [skills.sh](https://www.skills.sh/jeffallan/claude-skills/php-pro) | `npx skills add jeffallan/claude-skills/php-pro` |
 | 68 | `pick-ui-library` | Motion & Polish | [skills](https://github.com/emilkowalski/skills) | [skills.sh](https://skills.sh/emilkowalski/skills/pick-ui-library) | `npx skills add emilkowalski/skills/pick-ui-library` |
 | 69 | `playwright-cli` | Browser Testing | [playwright-cli](https://github.com/microsoft/playwright-cli) | [playwright-cli](https://github.com/microsoft/playwright-cli) | `npm i -g @playwright/cli && playwright-cli install --skills` |
-| 70 | `prompt-mentor` | Prompt Engineering & Refinement | [agents-workflow-template](https://github.com/masudranaxpert/agents-workflow-template) | [prompt-mentor](https://github.com/masudranaxpert/agents-workflow-template/tree/main/skills/prompt-mentor) | `npx skills add masudranaxpert/agents-workflow-template/prompt-mentor` |
-| 71 | `prototype` | Motion & Polish | [skills](https://github.com/emilkowalski/skills) | [skills.sh](https://skills.sh/emilkowalski/skills/prototype) | `npx skills add emilkowalski/skills/prototype` |
-| 72 | `python-design-patterns` | Backend & App Router | [agents](https://github.com/wshobson/agents) | [skills.sh](https://skills.sh/wshobson/agents/python-design-patterns) | `npx skills add wshobson/agents/python-design-patterns` |
-| 73 | `python-performance-optimization` | Backend & App Router | [agents](https://github.com/wshobson/agents) | [skills.sh](https://skills.sh/wshobson/agents/python-performance-optimization) | `npx skills add wshobson/agents/python-performance-optimization` |
-| 74 | `react` | React Rendering | [json-render](https://github.com/vercel-labs/json-render) | [skills.sh](https://skills.sh/vercel-labs/json-render/react) | `npx skills add vercel-labs/json-render/react` |
-| 75 | `react-components` | React Components | [stitch-skills](https://github.com/google-labs-code/stitch-skills) | [skills.sh](https://skills.sh/google-labs-code/stitch-skills/reactcomponents) | `npx skills add google-labs-code/stitch-skills/reactcomponents` |
-| 76 | `react-doctor` | React Code Health | [react-doctor](https://github.com/millionco/react-doctor) | [skills.sh](https://skills.sh/millionco/react-doctor/react-doctor) | `npx skills add millionco/react-doctor/react-doctor` |
-| 77 | `readme-optimization` | Documentation | [developer-relations-skills](https://github.com/samber/developer-relations-skills) | [skills.sh](https://skills.sh/samber/developer-relations-skills/readme-optimization) | `npx skills add samber/developer-relations-skills/readme-optimization` |
-| 78 | `refactoring-ui` | Tactical UI Polish & Hierarchy | [skills](https://github.com/wondelai/skills) | [wondelai](https://github.com/wondelai/skills) | `npx skills add wondelai/skills/refactoring-ui` |
-| 79 | `release-it` | Production Stability & Resilience | [skills](https://github.com/wondelai/skills) | [wondelai](https://github.com/wondelai/skills) | `npx skills add wondelai/skills/release-it` |
-| 80 | `review-animations` | Motion & Polish | [skills](https://github.com/emilkowalski/skills) | [skills.sh](https://skills.sh/emilkowalski/skills/review-animations) | `npx skills add emilkowalski/skills/review-animations` |
-| 81 | `security-audit` | Security | [security-audit-skill](https://github.com/cloudflare/security-audit-skill) | [skills/security-audit](https://github.com/cloudflare/security-audit-skill/tree/main/skills/security-audit) | `npx skills add cloudflare/security-audit-skill/skills/security-audit` |
-| 82 | `software-architecture` | Architecture & Clean Code | [agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | [skills.sh](https://www.skills.sh/sickn33/agentic-awesome-skills/software-architecture) | `npx skills add sickn33/agentic-awesome-skills/software-architecture` |
-| 83 | `state-machine` | Visual & Design Foundations | [skills](https://github.com/jakubkrehel/skills) | [skills.sh](https://skills.sh/jakubkrehel/skills/state-machine) | `npx skills add jakubkrehel/skills/state-machine` |
-| 84 | `subagent-driven-development` | Autonomous Multi-Agent Orchestration | [superpowers](https://github.com/obra/superpowers) | [skills.sh](https://skills.sh/obra/superpowers/subagent-driven-development) | `npx skills add obra/superpowers/subagent-driven-development` |
-| 85 | `tailwind-4-docs` | Frontend Styling | [Tailwind-Agent-Skills](https://github.com/Lombiq/Tailwind-Agent-Skills) | [skills/tailwind-4-docs](https://github.com/Lombiq/Tailwind-Agent-Skills/tree/dev/skills/tailwind-4-docs) | `npx skills add Lombiq/Tailwind-Agent-Skills/skills/tailwind-4-docs` |
-| 86 | `taste-skill` | Anti-Slop Frontend & Landing Pages | [taste-skill](https://github.com/Leonxlnx/taste-skill) | [tasteskill.dev](https://tasteskill.dev) | `npx skills add https://github.com/Leonxlnx/taste-skill` |
-| 87 | `variant` | Visual & Design Foundations | [skills](https://github.com/jakubkrehel/skills) | [skills.sh](https://skills.sh/jakubkrehel/skills/variant) | `npx skills add jakubkrehel/skills/variant` |
-| 88 | `vercel-react-best-practices` | React & Vercel | [agent-skills](https://github.com/vercel-labs/agent-skills) | [skills.sh](https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices) | `npx skills add vercel-labs/agent-skills/vercel-react-best-practices` |
-| 89 | `vercel-react-view-transitions` | React & Vercel | [agent-skills](https://github.com/vercel-labs/agent-skills) | [skills.sh](https://skills.sh/vercel-labs/agent-skills/vercel-react-view-transitions) | `npx skills add vercel-labs/agent-skills/vercel-react-view-transitions` |
-| 90 | `write-swift` | Motion & Polish | [skills](https://github.com/emilkowalski/skills) | [skills.sh](https://skills.sh/emilkowalski/skills/write-swift) | `npx skills add emilkowalski/skills/write-swift` |
-| 91 | `writing-plans` | Implementation Planning & TDD | [superpowers](https://github.com/obra/superpowers) | [skills.sh](https://skills.sh/obra/superpowers/writing-plans) | `npx skills add obra/superpowers/writing-plans` |
+| 70 | `project-structure-refactoring` | Codebase Architecture & Refactoring | [vector-skills](https://github.com/myatminlu/vector-skills) | [skills.sh](https://www.skills.sh/myatminlu/vector-skills/project-structure-refactoring) | `npx skills add myatminlu/vector-skills/project-structure-refactoring` |
+| 71 | `prompt-mentor` | Prompt Engineering & Refinement | [agents-workflow-template](https://github.com/masudranaxpert/agents-workflow-template) | [prompt-mentor](https://github.com/masudranaxpert/agents-workflow-template/tree/main/skills/prompt-mentor) | `npx skills add masudranaxpert/agents-workflow-template/prompt-mentor` |
+| 72 | `prototype` | Motion & Polish | [skills](https://github.com/emilkowalski/skills) | [skills.sh](https://skills.sh/emilkowalski/skills/prototype) | `npx skills add emilkowalski/skills/prototype` |
+| 73 | `python-design-patterns` | Backend & App Router | [agents](https://github.com/wshobson/agents) | [skills.sh](https://skills.sh/wshobson/agents/python-design-patterns) | `npx skills add wshobson/agents/python-design-patterns` |
+| 74 | `python-performance-optimization` | Backend & App Router | [agents](https://github.com/wshobson/agents) | [skills.sh](https://skills.sh/wshobson/agents/python-performance-optimization) | `npx skills add wshobson/agents/python-performance-optimization` |
+| 75 | `react` | React Rendering | [json-render](https://github.com/vercel-labs/json-render) | [skills.sh](https://skills.sh/vercel-labs/json-render/react) | `npx skills add vercel-labs/json-render/react` |
+| 76 | `react-components` | React Components | [stitch-skills](https://github.com/google-labs-code/stitch-skills) | [skills.sh](https://skills.sh/google-labs-code/stitch-skills/reactcomponents) | `npx skills add google-labs-code/stitch-skills/reactcomponents` |
+| 77 | `react-doctor` | React Code Health | [react-doctor](https://github.com/millionco/react-doctor) | [skills.sh](https://skills.sh/millionco/react-doctor/react-doctor) | `npx skills add millionco/react-doctor/react-doctor` |
+| 78 | `readme-optimization` | Documentation | [developer-relations-skills](https://github.com/samber/developer-relations-skills) | [skills.sh](https://skills.sh/samber/developer-relations-skills/readme-optimization) | `npx skills add samber/developer-relations-skills/readme-optimization` |
+| 79 | `refactoring-ui` | Tactical UI Polish & Hierarchy | [skills](https://github.com/wondelai/skills) | [wondelai](https://github.com/wondelai/skills) | `npx skills add wondelai/skills/refactoring-ui` |
+| 80 | `release-it` | Production Stability & Resilience | [skills](https://github.com/wondelai/skills) | [wondelai](https://github.com/wondelai/skills) | `npx skills add wondelai/skills/release-it` |
+| 81 | `review-animations` | Motion & Polish | [skills](https://github.com/emilkowalski/skills) | [skills.sh](https://skills.sh/emilkowalski/skills/review-animations) | `npx skills add emilkowalski/skills/review-animations` |
+| 82 | `security-audit` | Security | [security-audit-skill](https://github.com/cloudflare/security-audit-skill) | [skills/security-audit](https://github.com/cloudflare/security-audit-skill/tree/main/skills/security-audit) | `npx skills add cloudflare/security-audit-skill/skills/security-audit` |
+| 83 | `software-architecture` | Architecture & Clean Code | [agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | [skills.sh](https://www.skills.sh/sickn33/agentic-awesome-skills/software-architecture) | `npx skills add sickn33/agentic-awesome-skills/software-architecture` |
+| 84 | `state-machine` | Visual & Design Foundations | [skills](https://github.com/jakubkrehel/skills) | [skills.sh](https://skills.sh/jakubkrehel/skills/state-machine) | `npx skills add jakubkrehel/skills/state-machine` |
+| 85 | `subagent-driven-development` | Autonomous Multi-Agent Orchestration | [superpowers](https://github.com/obra/superpowers) | [skills.sh](https://skills.sh/obra/superpowers/subagent-driven-development) | `npx skills add obra/superpowers/subagent-driven-development` |
+| 86 | `tailwind-4-docs` | Frontend Styling | [Tailwind-Agent-Skills](https://github.com/Lombiq/Tailwind-Agent-Skills) | [skills/tailwind-4-docs](https://github.com/Lombiq/Tailwind-Agent-Skills/tree/dev/skills/tailwind-4-docs) | `npx skills add Lombiq/Tailwind-Agent-Skills/skills/tailwind-4-docs` |
+| 87 | `taste-skill` | Anti-Slop Frontend & Landing Pages | [taste-skill](https://github.com/Leonxlnx/taste-skill) | [tasteskill.dev](https://tasteskill.dev) | `npx skills add https://github.com/Leonxlnx/taste-skill` |
+| 88 | `variant` | Visual & Design Foundations | [skills](https://github.com/jakubkrehel/skills) | [skills.sh](https://skills.sh/jakubkrehel/skills/variant) | `npx skills add jakubkrehel/skills/variant` |
+| 89 | `vercel-react-best-practices` | React & Vercel | [agent-skills](https://github.com/vercel-labs/agent-skills) | [skills.sh](https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices) | `npx skills add vercel-labs/agent-skills/vercel-react-best-practices` |
+| 90 | `vercel-react-view-transitions` | React & Vercel | [agent-skills](https://github.com/vercel-labs/agent-skills) | [skills.sh](https://skills.sh/vercel-labs/agent-skills/vercel-react-view-transitions) | `npx skills add vercel-labs/agent-skills/vercel-react-view-transitions` |
+| 91 | `write-swift` | Motion & Polish | [skills](https://github.com/emilkowalski/skills) | [skills.sh](https://skills.sh/emilkowalski/skills/write-swift) | `npx skills add emilkowalski/skills/write-swift` |
+| 92 | `writing-plans` | Implementation Planning & TDD | [superpowers](https://github.com/obra/superpowers) | [skills.sh](https://skills.sh/obra/superpowers/writing-plans) | `npx skills add obra/superpowers/writing-plans` |
