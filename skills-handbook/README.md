@@ -1,6 +1,6 @@
 # Master Skills Handbook
 
-A structured directory and decision matrix for all 92 AI coding agent skills installed in the environment.
+A structured directory and decision matrix for all 96 AI coding agent skills installed in the environment.
 
 - For a dedicated deep dive into UI, design systems, and motion: **[UI Skills Handbook](ui.md)**
 - For battle-tested deep-audit prompts and Antigravity slash commands: **[Deep Prompting & Audit Guide](deep-prompts.md)**
@@ -48,6 +48,10 @@ A structured directory and decision matrix for all 92 AI coding agent skills ins
 | **Scrubbing AI Writing Tells** | `humanizer` | `no-ai-slop` (to keep author voice) |
 | **Multi-Step Implementation Plans & TDD** | `writing-plans` | `subagent-driven-development`, `codebase-design` |
 | **Autonomous Subagent Plan Execution** | `subagent-driven-development` | `writing-plans`, `code-review-and-quality` |
+| **Colosseum Multi-Agent Arena Battle** | `battle` | `subagent-driven-development`, `benchmark` |
+| **Hardware Telemetry & Performance Benchmarking** | `benchmark` | `performance-optimization` |
+| **On-Demand Context Compaction & State Preservation** | `compaction` | `codebase-design` |
+| **Decoupled Multi-Agent Learning Pipeline (OWL)** | `owl` | `subagent-driven-development`, `writing-plans` |
 
 ---
 
@@ -171,10 +175,14 @@ A structured directory and decision matrix for all 92 AI coding agent skills ins
 
 ---
 
-## 12. Multi-Agent Planning & Subagent Workflows
+## 12. Multi-Agent Planning, Antigravity Architectures & Benchmarking
 
 - **`writing-plans`**: যেকোনো মাল্টি-স্টেপ ফিচার কোডিং শুরু করার আগে সুনির্দিষ্ট TDD ও bite-sized টাস্ক সহ স্বয়ংসম্পূর্ণ ইমপ্লিমেন্টেশন প্ল্যান লিখতে।
 - **`subagent-driven-development`**: তৈরি করা প্ল্যান অনুযায়ী প্রতি টাস্কের জন্য ফ্রেশ সাব-এজেন্ট ডিসপ্যাচ করা, স্পেক ও কোয়ালিটি রিভিউ এবং অটোমেটেড কন্টিনিউয়াস এক্সিকিউশন নিশ্চিত করতে।
+- **`battle`**: Antigravity কলোসিয়াম ব্যাটেল মোড—একাধিক সাব-এজেন্টকে আইসোলেটেড ওয়ার্কস্পেসে একই চ্যালেঞ্জ দিয়ে প্রতিযোগিতায় নামানো এবং অবজেক্টিভ স্কোরিংয়ের মাধ্যমে সেরা সলিউশন বেছে নেওয়া।
+- **`benchmark`**: এম্পিরিক্যাল হার্ডওয়্যার টেলিমেট্রি ও অ্যাড-হক বেঞ্চমার্কিং—CPU/GPU থ্রুপুট, ওয়াল-ক্লক লেটেন্সি এবং রিয়েল মেমোরি কনজাম্পশন পরিমাপ করা।
+- **`compaction`**: অন-ডিমান্ড কনটেক্সট কম্প্যাকশন—লং-রানিং কনভারসেশন বা ভারী এজেন্ট সেশনের স্টেট এবং ডিসিশন লজিক না হারিয়ে ক্লিন স্লিম কনটেক্সটে কম্প্যাক্ট করা।
+- **`owl`**: Optimized Workforce Learning (OWL) ডিকাপল্ড মাল্টি-এজেন্ট পাইপলাইন—ইনভেস্টিগেশন ও কোডিং ফেজকে আলাদা করে (`DeepInvestigator` + `DeepCoder`) বড় টাস্ক সফলভাবে ডেলিভার করা।
 
 ---
 
