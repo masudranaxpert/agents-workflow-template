@@ -1,6 +1,6 @@
 # Master Skills Handbook
 
-A structured directory and decision matrix for all 96 AI coding agent skills installed in the environment.
+A structured directory and decision matrix for all 99 AI coding agent skills installed in the environment.
 
 - For a dedicated deep dive into UI, design systems, and motion: **[UI Skills Handbook](ui.md)**
 - For battle-tested deep-audit prompts and Antigravity slash commands: **[Deep Prompting & Audit Guide](deep-prompts.md)**
@@ -15,6 +15,7 @@ A structured directory and decision matrix for all 96 AI coding agent skills ins
 | **System Architecture & Module Boundaries** | `codebase-design` | `api-and-interface-design` |
 | **Clean Architecture & DDD Code Guidelines** | `software-architecture` | `codebase-design`, `api-and-interface-design` |
 | **Cross-Language Project Layout & Safe Refactoring** | `project-structure-refactoring` | `codebase-design`, `golang-project-layout` |
+| **Python Project Layout & Module Architecture** | `python-project-structure` | `python-design-patterns`, `project-structure-refactoring` |
 | **Database Architecture & Data-Intensive Systems** | `ddia-systems` | `codebase-design`, `django-perf-review` |
 | **Production Resilience & Fault Tolerance** | `release-it` | `security-audit`, `performance-optimization` |
 | **OpenAPI 3.1 & Swagger Documentation** | `api-designer` | `api-and-interface-design`, `fastapi` |
@@ -30,6 +31,8 @@ A structured directory and decision matrix for all 96 AI coding agent skills ins
 | **Design Variations & Comparison** | `variant` | `prototype` |
 | **Next.js Core Web Vitals & Caching** | `nextjs-performance` | `vercel-react-best-practices` |
 | **Next.js Authentication & RBAC** | `nextjs-authentication` | `nextjs-app-router-patterns` |
+| **Clerk Auth & Next.js Patterns** | `clerk-nextjs-patterns` | `nextjs-authentication`, `nextjs-app-router-patterns` |
+| **Next.js App Router SEO & Metadata** | `nextjs-seo` | `nextjs-performance`, `seo-audit` |
 | **Django Backend Models, Views & APIs** | `django-patterns` | `django-expert` |
 | **Django Database Queries & N+1 Fixes** | `django-perf-review` | `performance-optimization` |
 | **High-Throughput Async FastAPI APIs** | `fastapi-patterns` | `fastapi-async-patterns`, `fastapi` |
